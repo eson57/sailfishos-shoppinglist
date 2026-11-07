@@ -1,0 +1,16 @@
+[package]
+name = "qt-i18n"
+version = "0.1.0"
+edition = "2024"
+license = "GPL3"
+publish = false
+links = "qt-i18n"
+
+[dependencies]
+cxx = "1"
+cxx-qt = "0.10"
+cxx-qt-lib = "0.10"
+gettext-rs = { version = "0.8", features = ["gettext-system"] }
+
+[build-dependencies]
+cxx-qt-build = "0.10"

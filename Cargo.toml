@@ -1,0 +1,71 @@
+[workspace]
+resolver = "3"
+members = [".", "crates/*"]
+
+[workspace.metadata.sailjail]
+organization = "org.simmsb"
+application = "simmsb-shoppinglist"
+
+[package]
+name = "sailfishos-shoppinglist"
+version = "0.1.0"
+edition = "2024"
+license = "GPL3"
+publish = false
+
+[[bin]]
+name = "simmsb-shoppinglist"
+path = "src/main.rs"
+
+[dependencies]
+actor-macro = { path = "crates/actor-macro" }
+qt-async = { path = "crates/qt-async" }
+qt-i18n = { path = "crates/qt-i18n" }
+shoppinglist-core = { path = "crates/shoppinglist-core" }
+cxx = "1"
+cxx-qt = "0.10"
+cxx-qt-lib = { version = "0.10", features = ["chrono", "serde"] }
+gettext-rs = { version = "0.8", features = ["gettext-system"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "chrono"] }
+sailors = { path = "vendor/sailors" }
+tokio = { version = "1", features = ["macros", "rt", "rt-multi-thread", "sync", "time"] }
+etcetera = "0.11"
+serde = { version = "1.0.229", features = ["derive"] }
+uuid = { version = "1.29.3", features = ["serde", "v4"] }
+n0-error = { version = "1.0.3", features = ["anyhow"] }
+chrono = "0.4.45"
+tokio-stream = { version = "0.1.19", features = ["sync"] }
+zbus = { version = "6.3", features = ["tokio"] }
+serde_json = "1.0.154"
+ractor = { version = "0.16", features = ["actor-macros", "message_span_propogation"] }
+itertools = "0.15.0"
+list-patch = { path = "crates/list-patch" }
+fracindex = { version = "0.4.1", features = ["jitter"] }
+
+[build-dependencies]
+cxx-qt-build = "0.10"
+walkdir = "2.5.0"
+cargo_metadata = "0.23"
+minijinja = { version = "3.1", features = ["json", "serde"] }
+serde = { version = "1", features = ["derive"] }
+cargo-about = "0.9"
+krates = "0.21"
+itertools = "0.15"
+
+[patch.crates-io]
+cxx-qt = { git = "https://github.com/simmsb/cxx-qt", branch = "qt-5.6" }
+cxx-qt-build = { git = "https://github.com/simmsb/cxx-qt", branch = "qt-5.6" }
+cxx-qt-gen = { git = "https://github.com/simmsb/cxx-qt", branch = "qt-5.6" }
+cxx-qt-lib = { git = "https://github.com/simmsb/cxx-qt", branch = "qt-5.6" }
+cxx-qt-macro = { git = "https://github.com/simmsb/cxx-qt", branch = "qt-5.6" }
+qt-build-utils = { git = "https://github.com/simmsb/cxx-qt", branch = "qt-5.6" }
+
+[profile.dev]
+opt-level = 1  # needed for some cpp parts that need optimisations?
+
+[profile.release]
+strip = "debuginfo"
+opt-level = 3
+lto = "thin"
+# panic = "abort"

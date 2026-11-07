@@ -1,0 +1,19 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Name=Shopping List
+Icon=@APPLICATION@
+Exec=@APPLICATION@ %u
+MimeType=x-scheme-handler/shoppinglist;
+# The launcher would otherwise just raise the running window and drop the link.
+# A second process is started instead, which forwards the link over D-Bus and exits.
+X-Nemo-Single-Instance=no
+
+# [X-HarbourBackup]
+# BackupPathList=
+
+[X-Sailjail]
+Permissions=Internet;AppLaunch
+OrganizationName=@ORGANIZATION@
+ApplicationName=@APPLICATION@

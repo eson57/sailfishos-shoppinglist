@@ -1,0 +1,16 @@
+[package]
+name = "debug-console"
+version = "0.1.0"
+edition = "2024"
+license = "GPL3"
+publish = false
+
+[dependencies]
+shoppinglist-core = { path = "../shoppinglist-core" }
+n0-error = { version = "1.0.3", features = ["anyhow"] }
+ractor = { version = "0.16", features = ["actor-macros", "message_span_propogation"] }
+tokio = { version = "1", features = ["io-std", "io-util", "macros", "rt-multi-thread", "signal", "sync", "time"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+uuid = { version = "1.29.3", features = ["v4"] }
+chrono = "0.4.45"

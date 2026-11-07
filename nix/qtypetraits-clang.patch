@@ -1,0 +1,25 @@
+--- a/usr/include/qt5/QtCore/qtypetraits.h
++++ b/usr/include/qt5/QtCore/qtypetraits.h
+@@ -99,6 +99,7 @@
+ //  - Enclose in QtPrivate namespace.
+ 
+ #include "QtCore/qglobal.h"
++#include <type_traits>
+ 
+ #ifndef QTYPETRAITS_H
+ #define QTYPETRAITS_H
+@@ -473,9 +474,13 @@
+     : integral_constant<bool, !B> {};
+ 
+ // Checks whether a type is unsigned (T must be convertible to unsigned int):
+-template <typename T>
++template <typename T, bool IsEnum = std::is_enum<T>::value>
+ struct is_unsigned
+     : integral_constant<bool, (T(0) < T(-1))> {};
++template <typename T>
++struct is_unsigned<T, true>
++    : integral_constant<bool,
++                        std::is_unsigned<typename std::underlying_type<T>::type>::value> {};
+ 
+ // Checks whether a type is signed (T must be convertible to int):
+ template <typename T>

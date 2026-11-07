@@ -1,0 +1,8 @@
+[package]
+name = "list-patch"
+version = "0.1.0"
+edition = "2024"
+license = "GPL3"
+publish = false
+
+[dependencies]

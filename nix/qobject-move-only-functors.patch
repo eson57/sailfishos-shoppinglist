@@ -1,0 +1,50 @@
+--- a/usr/include/qt5/QtCore/qobject.h
++++ b/usr/include/qt5/QtCore/qobject.h
+@@ -47,6 +47,7 @@
+ #include <QtCore/qscopedpointer.h>
+ #include <QtCore/qmetatype.h>
+ 
++#include <utility>
+ #include <QtCore/qobject_impl.h>
+ 
+ QT_BEGIN_NAMESPACE
+@@ -244,7 +245,7 @@
+     static inline typename QtPrivate::QEnableIf<int(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0, QMetaObject::Connection>::Type
+             connect(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)
+     {
+-        return connect(sender, signal, sender, slot, Qt::DirectConnection);
++        return connect(sender, signal, sender, std::move(slot), Qt::DirectConnection);
+     }
+ 
+     //connect to a function pointer  (not a member)
+@@ -345,7 +346,7 @@
+         return connectImpl(sender, reinterpret_cast<void **>(&signal), context, Q_NULLPTR,
+                            new QtPrivate::QFunctorSlotObject<Func2, SlotArgumentCount,
+                                 typename QtPrivate::List_Left<typename SignalType::Arguments, SlotArgumentCount>::Value,
+-                                typename SignalType::ReturnType>(slot),
++                                typename SignalType::ReturnType>(std::move(slot)),
+                            type, types, &SignalType::Object::staticMetaObject);
+     }
+ #endif //Q_QDOC
+--- a/usr/include/qt5/QtCore/qobject_impl.h
++++ b/usr/include/qt5/QtCore/qobject_impl.h
+@@ -198,7 +198,7 @@
+             }
+         }
+     public:
+-        explicit QFunctorSlotObject(const Func &f) : QSlotObjectBase(&impl), function(f) {}
++        explicit QFunctorSlotObject(Func f) : QSlotObjectBase(&impl), function(std::move(f)) {}
+     };
+ }
+ 
+--- a/usr/include/qt5/QtCore/qtimer.h
++++ b/usr/include/qt5/QtCore/qtimer.h
+@@ -134,7 +134,7 @@
+ 
+         singleShotImpl(msec, timerType, context,
+                        new QtPrivate::QFunctorSlotObject<Func1, 0,
+-                            typename QtPrivate::List_Left<void, 0>::Value, void>(slot));
++                            typename QtPrivate::List_Left<void, 0>::Value, void>(std::move(slot)));
+     }
+ #endif
+ 

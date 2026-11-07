@@ -1,0 +1,20 @@
+[package]
+name = "sailors"
+version = "0.1.0"
+authors = ["Ruben De Smet <ruben.de.smet@rubdos.be>"]
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cxx = "1"
+cxx-qt = "0.10"
+cxx-qt-lib = "0.10"
+
+log = "0.4"
+
+anyhow = "1"
+
+[build-dependencies]
+cxx-qt-build = "0.10"
