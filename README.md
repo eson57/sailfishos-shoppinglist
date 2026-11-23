@@ -26,10 +26,10 @@ cloud services or user accounts[^1].
 
 ### Repo notes
 
-- The devenv of this repo does some magic to pull the SDK libraries out of the
-  `whisperfish/sailo-rs` sailfish Rust SDK image. Though only the SDK platform
-  libraries are extracted, so this is possibly overkill and I could possibly get
-  the SDK libraries from somewhere else?.
+- The devenv of this repo does some magic to pull the files required for cross
+  compiling directly from the Jolla repos. This part was LLM written and is
+  probably quite fragile, but it works to allow building the app without needing
+  a VM.
 
 - The program is built using `cargo zigbuild`, which means no cross-compile
   container/VM/emulator is needed, we simply use the zig compiler to

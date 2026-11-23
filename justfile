@@ -23,6 +23,10 @@ add-language lang:
     grep -q '^"Content-Type: text/plain; charset=UTF-8\\n"$' "$po" || { echo "failed to set UTF-8 charset in $po" >&2; exit 1; }
     echo "Created $po"
 
+# Re-resolve the sysroot packages listed in nix/sysroot.json into nix/sysroot.lock.json
+update-sysroot:
+    python3 -I nix/sysroot-lock.py
+
 [arg("profile", pattern="debug|release")]
 rpm profile: (build profile)
     #!/usr/bin/env bash

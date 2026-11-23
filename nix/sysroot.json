@@ -1,0 +1,26 @@
+{
+  "release": "5.2.0.22",
+  "arch": "aarch64",
+  "repositories": [
+    "https://releases.jolla.com/releases/@RELEASE@/jolla/@ARCH@",
+    "https://releases.jolla.com/releases/@RELEASE@/hotfixes/@ARCH@",
+    "https://releases.jolla.com/releases/@RELEASE@/sdk/@ARCH@",
+    "https://releases.jolla.com/features/@RELEASE@/customers/jolla/@ARCH@",
+    "https://releases.jolla.com/jolla-apps/@RELEASE@/@ARCH@"
+  ],
+  "packages": [
+    "glibc-headers",
+    "linux-glibc-devel",
+    "libstdc++-devel",
+    "qt5-qtcore-devel",
+    "qt5-qtgui-devel",
+    "qt5-qtnetwork-devel",
+    "qt5-qtdeclarative-devel",
+    "qt5-qtdeclarative-qtquick-devel",
+    "libsailfishapp-devel",
+    "sailfishsilica-qt5",
+    "sailfishshare-components",
+    "nemo-qml-plugin-configuration-qt5",
+    "nemo-qml-plugin-dbus-qt5"
+  ]
+}

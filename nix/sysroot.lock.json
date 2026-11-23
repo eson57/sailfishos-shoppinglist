@@ -1,0 +1,1530 @@
+{
+  "release": "5.2.0.22",
+  "arch": "aarch64",
+  "packages": [
+    {
+      "name": "alsa-lib",
+      "version": "1.2.13+git1-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/alsa-lib-1.2.13+git1-1.7.3.jolla.aarch64.rpm",
+      "sha256": "a9b9d50954c39381d391dfb5cf57975d056782298a18e336aad3aa1975582b62"
+    },
+    {
+      "name": "audit-libs",
+      "version": "3.1.5+git2-1.10.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/audit-libs-3.1.5+git2-1.10.4.jolla.aarch64.rpm",
+      "sha256": "f8ec11364c76006dc5ec86e373e288ecb6b4f877b552e533a6fbc97c3f0a73b8"
+    },
+    {
+      "name": "basesystem",
+      "version": "11+git1-1.5.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/basesystem-11+git1-1.5.3.jolla.noarch.rpm",
+      "sha256": "3840972a97ddb662ff9850f266b9ed48b63d445359e325cf579039ee0bb9694f"
+    },
+    {
+      "name": "busybox",
+      "version": "1.36.1+git11-1.15.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/busybox-1.36.1+git11-1.15.1.jolla.aarch64.rpm",
+      "sha256": "74187eeb344e358b66696f3a2e7dba4db9b4862c8e111917288823f45e4f4888"
+    },
+    {
+      "name": "busybox-symlinks-bash",
+      "version": "1.36.1+git11-1.15.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/busybox-symlinks-bash-1.36.1+git11-1.15.1.jolla.aarch64.rpm",
+      "sha256": "8e1ebb23c7c93a30314dbc1cf4542ebfac4f7292df3db12e182eed58b8c64abb"
+    },
+    {
+      "name": "busybox-symlinks-coreutils",
+      "version": "1.36.1+git11-1.15.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/busybox-symlinks-coreutils-1.36.1+git11-1.15.1.jolla.aarch64.rpm",
+      "sha256": "6e7b56b41869902d12976f871937899f984977bdcb5c5b2ed3eb8fea7d707bd6"
+    },
+    {
+      "name": "busybox-symlinks-diffutils",
+      "version": "1.36.1+git11-1.15.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/busybox-symlinks-diffutils-1.36.1+git11-1.15.1.jolla.aarch64.rpm",
+      "sha256": "55c877162a359d35408de40ecaeab39a736916946ddd20f86b99f8ed53d7bc07"
+    },
+    {
+      "name": "busybox-symlinks-findutils",
+      "version": "1.36.1+git11-1.15.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/busybox-symlinks-findutils-1.36.1+git11-1.15.1.jolla.aarch64.rpm",
+      "sha256": "4d079c69356dd9ab32fbffdd5e311bdc33c1c97f67de5d4e4b0c7b57059d1e9f"
+    },
+    {
+      "name": "busybox-symlinks-grep",
+      "version": "1.36.1+git11-1.15.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/busybox-symlinks-grep-1.36.1+git11-1.15.1.jolla.aarch64.rpm",
+      "sha256": "5b2e01dd46412c256fac6b62a442563eca7a3748045d8cb0f4ff9e5fa8a2be19"
+    },
+    {
+      "name": "busybox-symlinks-psmisc",
+      "version": "1.36.1+git11-1.15.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/busybox-symlinks-psmisc-1.36.1+git11-1.15.1.jolla.aarch64.rpm",
+      "sha256": "436577c246bb74a8465b7a3aa22beea1538a66e768ba2bcbb50daf537acb3fa2"
+    },
+    {
+      "name": "busybox-symlinks-sed",
+      "version": "1.36.1+git11-1.15.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/busybox-symlinks-sed-1.36.1+git11-1.15.1.jolla.aarch64.rpm",
+      "sha256": "e49e698bbf73fb37b34be5176f3665f0fd2bcdd7a2579edc8e22050eb00d0882"
+    },
+    {
+      "name": "busybox-symlinks-which",
+      "version": "1.36.1+git11-1.15.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/busybox-symlinks-which-1.36.1+git11-1.15.1.jolla.aarch64.rpm",
+      "sha256": "5b83d1a31d4ad2df82f2ffd5a0ea0943d3d3de5365daf99f0785e701bcf1e17a"
+    },
+    {
+      "name": "bzip2-libs",
+      "version": "1.0.8+git3-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/bzip2-libs-1.0.8+git3-1.7.3.jolla.aarch64.rpm",
+      "sha256": "cb319ed72d27996251d10eeea9d761bf5d45cad102a4f1a0c35abce16cf8a62e"
+    },
+    {
+      "name": "ca-certificates",
+      "version": "2025.2.80_v9.0.304-1.9.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/ca-certificates-2025.2.80_v9.0.304-1.9.1.jolla.noarch.rpm",
+      "sha256": "ca073e9554ff48e3fd43803fb28dbedf995fc3d8403f2dc0ee5dbd711a540395"
+    },
+    {
+      "name": "cairo",
+      "version": "1.18.2+git1-1.9.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/cairo-1.18.2+git1-1.9.4.jolla.aarch64.rpm",
+      "sha256": "056db42fccfe055da9dcfae6dfe248941b4bfa1f1f8b56c99153014c6089a2c8"
+    },
+    {
+      "name": "cryptsetup-libs",
+      "version": "2.7.5+git1-1.6.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/cryptsetup-libs-2.7.5+git1-1.6.4.jolla.aarch64.rpm",
+      "sha256": "9956ce9597c743a40741470dcc38b8b66861ba4d986ee02fb2e14202b32ff8c7"
+    },
+    {
+      "name": "curl",
+      "version": "8.20.0+git1-1.14.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/curl-8.20.0+git1-1.14.2.jolla.aarch64.rpm",
+      "sha256": "71c2afd07f3d5665b02b64986bdca32e97d1dbf888b5eb8d3dc1c94e4a0e7dbc"
+    },
+    {
+      "name": "db4",
+      "version": "4.8.30-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/db4-4.8.30-1.7.3.jolla.aarch64.rpm",
+      "sha256": "80028459c00f3faf667222cc582f6ef73732ae5a6f242cdb8df9899c68672e1f"
+    },
+    {
+      "name": "db4-utils",
+      "version": "4.8.30-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/db4-utils-4.8.30-1.7.3.jolla.aarch64.rpm",
+      "sha256": "b7904a4a4a425a544d2304aaed750587ddd2b51870fd3d1737486f1d3fbf7e33"
+    },
+    {
+      "name": "dbus-libs",
+      "version": "1.16.2+git1-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/dbus-libs-1.16.2+git1-1.8.3.jolla.aarch64.rpm",
+      "sha256": "a5caed87f7773f2de166fd928dd3ca623909046c1f605cb3a571d0ddaf4d31af"
+    },
+    {
+      "name": "dconf",
+      "version": "0.40.0+git5-1.9.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/dconf-0.40.0+git5-1.9.6.jolla.aarch64.rpm",
+      "sha256": "02cf05f208b96a4648c619997f1fd21eb65261414c12e5aa81312fb9d47b2ae7"
+    },
+    {
+      "name": "desktop-file-utils",
+      "version": "0.26+git4-1.7.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/desktop-file-utils-0.26+git4-1.7.7.jolla.aarch64.rpm",
+      "sha256": "06ee061e2d96bbdeee721fe5d48598486c1fcb95d3f565a4cd8034c07a54d4ba"
+    },
+    {
+      "name": "device-mapper",
+      "version": "2.03.32+git1-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/device-mapper-2.03.32+git1-1.8.3.jolla.aarch64.rpm",
+      "sha256": "a5a4852464f38df18e4e510b5cada96ed91a4502aead56e904057e0aa07ecf01"
+    },
+    {
+      "name": "device-mapper-event",
+      "version": "2.03.32+git1-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/device-mapper-event-2.03.32+git1-1.8.3.jolla.aarch64.rpm",
+      "sha256": "b76081077de0011842b0f69b8887c6c84abaa06d3a6ad78e69f0444b9fcdff74"
+    },
+    {
+      "name": "device-mapper-event-libs",
+      "version": "2.03.32+git1-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/device-mapper-event-libs-2.03.32+git1-1.8.3.jolla.aarch64.rpm",
+      "sha256": "c6851f1e35f6eddfe149244447f994814fee562e0b9e3a8b98a397833ab5bcf4"
+    },
+    {
+      "name": "device-mapper-libs",
+      "version": "2.03.32+git1-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/device-mapper-libs-2.03.32+git1-1.8.3.jolla.aarch64.rpm",
+      "sha256": "b28d9a382b302333d52f71a98e5d6d8830b913c85f6f9de0cc59a1aa5b7ec952"
+    },
+    {
+      "name": "exempi",
+      "version": "2.5.2+git1-1.8.8.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/exempi-2.5.2+git1-1.8.8.jolla.aarch64.rpm",
+      "sha256": "4c97a1ac4dd0a5dae0f7ef563c13b8d75759700d2c143551abd39bae2be7c8e9"
+    },
+    {
+      "name": "expat",
+      "version": "2.7.4+git1-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/expat-2.7.4+git1-1.8.3.jolla.aarch64.rpm",
+      "sha256": "d81a971aac7425fa2193a53fafb30601aaa2730ca506d963a3dac272e2bbd328"
+    },
+    {
+      "name": "expat-devel",
+      "version": "2.7.4+git1-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/expat-devel-2.7.4+git1-1.8.3.jolla.aarch64.rpm",
+      "sha256": "5e9cd197ab289e32d694a8e9a0808f57ebf7297699eaa21fb386c207e7e06964"
+    },
+    {
+      "name": "ffmpeg",
+      "version": "5.1.10+git1-1.14.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/ffmpeg-5.1.10+git1-1.14.1.jolla.aarch64.rpm",
+      "sha256": "8e790cbdd2e6bdb2553616d114239cbfdea4d53861f1b4c940d941423f176d80"
+    },
+    {
+      "name": "filesystem",
+      "version": "3.16+git5-1.9.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/filesystem-3.16+git5-1.9.1.jolla.aarch64.rpm",
+      "sha256": "a2512ccb5615cfcd9d400f4826df8e1c5b188ee73a8dcf0a1d46ef778ddee4e6"
+    },
+    {
+      "name": "firejail",
+      "version": "0.9.78+git1-1.11.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/firejail-0.9.78+git1-1.11.3.jolla.aarch64.rpm",
+      "sha256": "3f39de0206f8ed55219469b02dc610249e4622435c0f10216b112da845c213d5"
+    },
+    {
+      "name": "flac",
+      "version": "1.4.3+git1-1.6.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/flac-1.4.3+git1-1.6.4.jolla.aarch64.rpm",
+      "sha256": "f75b17dd86b1ce9ca8f42a9a68da4de5e3a6483e889393dce722e869944eb77f"
+    },
+    {
+      "name": "fontconfig",
+      "version": "2.13.96+git3-1.5.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/fontconfig-2.13.96+git3-1.5.6.jolla.aarch64.rpm",
+      "sha256": "06d9e255ea7d3d4e61492e72c13a857293da0c6c49a839700bd9d6c81f0ea0b0"
+    },
+    {
+      "name": "fontconfig-devel",
+      "version": "2.13.96+git3-1.5.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/fontconfig-devel-2.13.96+git3-1.5.6.jolla.aarch64.rpm",
+      "sha256": "88c4bcc975e4b9202c79b67666b3a3e919ad4a6b77ab82b8dbb4fafd3d4511ea"
+    },
+    {
+      "name": "fontpackages-filesystem",
+      "version": "1.44-1.5.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/fontpackages-filesystem-1.44-1.5.2.jolla.noarch.rpm",
+      "sha256": "26a416ad7d63dc4ebe37c0f7870984ee7168abd21fb9aaf20676ea0fb2dee297"
+    },
+    {
+      "name": "freetype",
+      "version": "2.14.2+git1-1.7.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/freetype-2.14.2+git1-1.7.4.jolla.aarch64.rpm",
+      "sha256": "d6c893a45da8d18be84294e3b2e3a60d50a00416512ab4d4f485804924aea1c0"
+    },
+    {
+      "name": "freetype-devel",
+      "version": "2.14.2+git1-1.7.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/freetype-devel-2.14.2+git1-1.7.4.jolla.aarch64.rpm",
+      "sha256": "3b997b50b24d781f6b8288e76d059438c57d172013bd6f30c33673a2697020d5"
+    },
+    {
+      "name": "fribidi",
+      "version": "1.0.12+git1-1.7.5.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/fribidi-1.0.12+git1-1.7.5.jolla.aarch64.rpm",
+      "sha256": "c94156910ee0d8d9bc008ee947f782e0a3341bc7935ca6352bb108fa1ea1db12"
+    },
+    {
+      "name": "gawk",
+      "version": "1:3.1.5-1.6.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/gawk-3.1.5-1.6.3.jolla.aarch64.rpm",
+      "sha256": "75f56b86203c45eae0c66176b68c78dd82299b7ddcfd050514cde50de9e0a2b8"
+    },
+    {
+      "name": "glib2",
+      "version": "2.86.4+git1-1.10.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/glib2-2.86.4+git1-1.10.3.jolla.aarch64.rpm",
+      "sha256": "7c2577e4ea70917ac12dbb2e9e08d24bf7fec4c929f50d912e2a7d7cc28140e7"
+    },
+    {
+      "name": "glibc",
+      "version": "2.41+git5-1.11.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/glibc-2.41+git5-1.11.3.jolla.aarch64.rpm",
+      "sha256": "b976fefb6922924778e9c897bef2899eca9d1a750fcc2b13f32d4159c6e7d71f"
+    },
+    {
+      "name": "glibc-common",
+      "version": "2.41+git5-1.11.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/glibc-common-2.41+git5-1.11.3.jolla.aarch64.rpm",
+      "sha256": "8eb734c8ec5107c9527c29a921e5145b8844dff71a3d3fd6ca34dc7efd9be8a2"
+    },
+    {
+      "name": "glibc-devel",
+      "version": "2.41+git5-1.11.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/glibc-devel-2.41+git5-1.11.3.jolla.aarch64.rpm",
+      "sha256": "e7a530c24d0ed125371242707c6af81e28ab8e015dff76c11dae7c8a81f6e3b6"
+    },
+    {
+      "name": "glibc-headers",
+      "version": "2.41+git5-1.11.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/glibc-headers-2.41+git5-1.11.3.jolla.aarch64.rpm",
+      "sha256": "8d29b93dd14268fca3a153adb9b93248a814845802281e9aa35af6485ff3ba9b"
+    },
+    {
+      "name": "graphite2",
+      "version": "1.3.14+git4-1.6.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/graphite2-1.3.14+git4-1.6.4.jolla.aarch64.rpm",
+      "sha256": "0cfa71000c80dabd477d1dbe2285a2b84805c33f1e0c68c56d08d10b6181c94d"
+    },
+    {
+      "name": "gstreamer1.0",
+      "version": "1.26.11+git1-1.15.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/gstreamer1.0-1.26.11+git1-1.15.2.jolla.aarch64.rpm",
+      "sha256": "ac5f01fdff95fcb47ca3a634159e268fe37b7543bfef0b1d0d35907d676ef8c7"
+    },
+    {
+      "name": "gstreamer1.0-plugins-base",
+      "version": "1.26.11+git1-1.14.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/gstreamer1.0-plugins-base-1.26.11+git1-1.14.3.jolla.aarch64.rpm",
+      "sha256": "6e170493f8cc4d5d98b725384b0d773a70ae8c26b236f53e301450f2f6ca5f61"
+    },
+    {
+      "name": "gstreamer1.0-plugins-good",
+      "version": "1.26.11+git1-1.14.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/gstreamer1.0-plugins-good-1.26.11+git1-1.14.3.jolla.aarch64.rpm",
+      "sha256": "69b74fd787d28c9ee0df73573616fe0187479a26a8a24c8d24f3dcf23f4710c4"
+    },
+    {
+      "name": "harfbuzz",
+      "version": "8.1.1+git1-1.5.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/harfbuzz-8.1.1+git1-1.5.7.jolla.aarch64.rpm",
+      "sha256": "0cbb5179915eea0a47637a68a937ad08b5b6e1775e1d36e4dde3bea4764b7826"
+    },
+    {
+      "name": "info",
+      "version": "6.3+git2-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/info-6.3+git2-1.7.3.jolla.aarch64.rpm",
+      "sha256": "9098bfc7d290597ae753c42513bdf17dee6c537e25fd3c5ef3107071baaf35b1"
+    },
+    {
+      "name": "jolla-ambient-sound-theme",
+      "version": "0.1.1-1.3.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/non-oss/noarch/jolla-ambient-sound-theme-0.1.1-1.3.1.jolla.noarch.rpm",
+      "sha256": "9bb79424dd84d8dfcc8a3cb6df459da2f40a919550aa5c4438ddb04d2bcaa55c"
+    },
+    {
+      "name": "json-c",
+      "version": "0.18+git1-1.5.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/json-c-0.18+git1-1.5.3.jolla.aarch64.rpm",
+      "sha256": "e2d0001a30d1257e295a19591fb1b2a66ea60788c431f7037bad013a01b91f8e"
+    },
+    {
+      "name": "kmod-libs",
+      "version": "29+git2-1.6.5.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/kmod-libs-29+git2-1.6.5.jolla.aarch64.rpm",
+      "sha256": "bb6efbe55ca7043e7f53f688888d537e3417ade19b5f9a95f91d555ac19be545"
+    },
+    {
+      "name": "libaccounts-glib",
+      "version": "1.27+git3-1.6.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libaccounts-glib-1.27+git3-1.6.4.jolla.aarch64.rpm",
+      "sha256": "a0cc11398d770d191c5394e532e25f55c7ed8d5b75f04446c3d2135864bb5c76"
+    },
+    {
+      "name": "libaccounts-qt5",
+      "version": "1.17+git3-1.9.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libaccounts-qt5-1.17+git3-1.9.2.jolla.aarch64.rpm",
+      "sha256": "0b6d50717956f89fda6f1dca9ed859b7105fa97488418ff6a6be49759b9f518d"
+    },
+    {
+      "name": "libacl",
+      "version": "2.3.1+git2-1.6.23.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libacl-2.3.1+git2-1.6.23.jolla.aarch64.rpm",
+      "sha256": "27d55d897ea68d11786bb0a2affa532cf8caf8dfce5e0789b550a316a4e458eb"
+    },
+    {
+      "name": "libaio",
+      "version": "0.3.113+git1-1.1.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libaio-0.3.113+git1-1.1.3.jolla.aarch64.rpm",
+      "sha256": "1f7a9b15d91c43a5700137d2bcc69693c602fb2cc3753e34bb9d259f767ec741"
+    },
+    {
+      "name": "libarchive",
+      "version": "3.8.7+git1-1.13.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libarchive-3.8.7+git1-1.13.2.jolla.aarch64.rpm",
+      "sha256": "4dfb2aa7d789698f545db1b1d94754222ab9319de3f44c59385a9df802d69cec"
+    },
+    {
+      "name": "libasyncns",
+      "version": "0.8-1.5.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libasyncns-0.8-1.5.6.jolla.aarch64.rpm",
+      "sha256": "76cec789c600aa4690f928e0720772433c4f2c462490e550b32133966de756a5"
+    },
+    {
+      "name": "libblkid",
+      "version": "2.40.2+git2-1.14.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libblkid-2.40.2+git2-1.14.3.jolla.aarch64.rpm",
+      "sha256": "b3d436446ea1557371e04cc731f210bbce2db416543e2341ed821d536c6834dd"
+    },
+    {
+      "name": "libcanberra",
+      "version": "0.30+git3-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libcanberra-0.30+git3-1.7.3.jolla.aarch64.rpm",
+      "sha256": "890f72c32cab14521a9d22221512fd469db2739ea8d46385eab57717694ee1c3"
+    },
+    {
+      "name": "libcap",
+      "version": "2.78+git1-1.9.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libcap-2.78+git1-1.9.2.jolla.aarch64.rpm",
+      "sha256": "05e72274253af6cdb105f4404a87c184441817d55572205eb66005fccba1621d"
+    },
+    {
+      "name": "libcurl",
+      "version": "8.20.0+git1-1.14.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libcurl-8.20.0+git1-1.14.2.jolla.aarch64.rpm",
+      "sha256": "7eabb5d96bc2944b1df9384719ccff5186189a815c77145ce7bd55f25667c95d"
+    },
+    {
+      "name": "libdbusaccess",
+      "version": "1.0.20-1.7.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libdbusaccess-1.0.20-1.7.4.jolla.aarch64.rpm",
+      "sha256": "cd7c0e0e4db4ea4e97b996fb26fede13022c1bb247e4e0b7c713394cd5829848"
+    },
+    {
+      "name": "libdrm",
+      "version": "2.4.122+git1-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libdrm-2.4.122+git1-1.7.3.jolla.aarch64.rpm",
+      "sha256": "303c8fe9efb6726785f9f52c7709a4d3b6329b632baf7f63465e7d293490c11b"
+    },
+    {
+      "name": "libdrm-devel",
+      "version": "2.4.122+git1-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libdrm-devel-2.4.122+git1-1.7.3.jolla.aarch64.rpm",
+      "sha256": "b629c96b55666ba9662602a735cf862759f73b1b3931ff0f5ae26221c5779830"
+    },
+    {
+      "name": "libdrm-nouveau",
+      "version": "2.4.122+git1-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libdrm-nouveau-2.4.122+git1-1.7.3.jolla.aarch64.rpm",
+      "sha256": "149b6cffdb917246eb4edc2f551ffca36f029b58c6dc2547653eeae1758b8856"
+    },
+    {
+      "name": "libdrm-radeon",
+      "version": "2.4.122+git1-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libdrm-radeon-2.4.122+git1-1.7.3.jolla.aarch64.rpm",
+      "sha256": "c7825fa4ba4c9d1e12692bb0975e9e96d930db286fb987f177cf5780acb2a884"
+    },
+    {
+      "name": "libdsme",
+      "version": "0.67.0-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libdsme-0.67.0-1.7.3.jolla.aarch64.rpm",
+      "sha256": "1fcdd0377bfc93c4504337bc46ddbfc974ead7c87d6507d4371693e7af23a035"
+    },
+    {
+      "name": "libexif",
+      "version": "0.6.24+git1-1.5.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libexif-0.6.24+git1-1.5.4.jolla.aarch64.rpm",
+      "sha256": "b46007ba4d6367447ea3179ebc96d163d85a4c6ce2b191ef00a8713d7eb87607"
+    },
+    {
+      "name": "libfdisk",
+      "version": "2.40.2+git2-1.14.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libfdisk-2.40.2+git2-1.14.3.jolla.aarch64.rpm",
+      "sha256": "dafc508be09661f644fa65b49ffc3f085165679d47d14b773a355c1272be209d"
+    },
+    {
+      "name": "libffi",
+      "version": "3.4.6+git1-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libffi-3.4.6+git1-1.8.3.jolla.aarch64.rpm",
+      "sha256": "7ddf08a49cf147dd9a11fdf7d1e7013e7b99a36df99c1728753d8ef6235791d0"
+    },
+    {
+      "name": "libgcc",
+      "version": "13.4.0+git2-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libgcc-13.4.0+git2-1.9.3.jolla.aarch64.rpm",
+      "sha256": "90a721e621af3b16509881424fda2876f64377691bf80cc153dc382b193cdfdb"
+    },
+    {
+      "name": "libgcrypt",
+      "version": "1.10.3+git1-1.7.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libgcrypt-1.10.3+git1-1.7.4.jolla.aarch64.rpm",
+      "sha256": "bf308a5a500cebc54a522b295269fcb4e2190bb5ba92b77024f6cca8ed259ae3"
+    },
+    {
+      "name": "libglibutil",
+      "version": "1.0.82-1.20.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libglibutil-1.0.82-1.20.1.jolla.aarch64.rpm",
+      "sha256": "2139db06aeb3240846886ba17e8e6d83a3018707fd0e00cee8b681a55fc8c864"
+    },
+    {
+      "name": "libgpg-error",
+      "version": "1.42+git2-1.7.5.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libgpg-error-1.42+git2-1.7.5.jolla.aarch64.rpm",
+      "sha256": "e1a9d0a832ee76299bfd7f1cf61b780d4be689040a80151b8e0037153120323b"
+    },
+    {
+      "name": "libgudev",
+      "version": "237+git1-1.6.9.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libgudev-237+git1-1.6.9.jolla.aarch64.rpm",
+      "sha256": "21414311f2bd314502fd1f682196d01fd487a683b86d0287ca79ef21c153db50"
+    },
+    {
+      "name": "libicu",
+      "version": "73.2+git2-1.8.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libicu-73.2+git2-1.8.4.jolla.aarch64.rpm",
+      "sha256": "b9cefb44e0fe1ebd8c2e4337a566d73906f4fa9df91614561f5854cd405d631c"
+    },
+    {
+      "name": "libiodata-qt5",
+      "version": "0.19.14-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libiodata-qt5-0.19.14-1.8.3.jolla.aarch64.rpm",
+      "sha256": "a34fb74f92d28d7c35675f17db54a52726bc9e47cdfc77f59a4db22b4540d224"
+    },
+    {
+      "name": "libjpeg-turbo",
+      "version": "3.0.3+git1-1.8.5.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libjpeg-turbo-3.0.3+git1-1.8.5.jolla.aarch64.rpm",
+      "sha256": "331f00419d709d71a5f30bf7c162d981f4ad77be0806860543e52d92e00ba863"
+    },
+    {
+      "name": "liblua",
+      "version": "5.4.6-1.7.5.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/liblua-5.4.6-1.7.5.jolla.aarch64.rpm",
+      "sha256": "261dc8b8bedd08419c39cedb8ff8fade920eed9895254f4ad02033ef7ca776f3"
+    },
+    {
+      "name": "libmount",
+      "version": "2.40.2+git2-1.14.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libmount-2.40.2+git2-1.14.3.jolla.aarch64.rpm",
+      "sha256": "89848c767d7c1cd3649a9269ca795779ed8c277818428dc949378815b4941ab6"
+    },
+    {
+      "name": "libmpg123",
+      "version": "1.33.4+git1-1.10.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libmpg123-1.33.4+git1-1.10.2.jolla.aarch64.rpm",
+      "sha256": "8dd87d2d89f91a0c2674dfaf02a073b5b2895fced8beafa4faa89d24eff7fa3d"
+    },
+    {
+      "name": "libnemotransferengine-qt5",
+      "version": "2.1.0-1.15.5.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libnemotransferengine-qt5-2.1.0-1.15.5.jolla.aarch64.rpm",
+      "sha256": "2659cf2102ee9083acc1f615c8b6b7942bb4a98ea1735bc7b954e88a2a80b5b3"
+    },
+    {
+      "name": "libngf-qt5",
+      "version": "0.9.2-1.14.5.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libngf-qt5-0.9.2-1.14.5.jolla.aarch64.rpm",
+      "sha256": "e96c8bba823512920332331a3e7e19b3998a5e5ef19603f639aab353d1f54864"
+    },
+    {
+      "name": "libngf-qt5-declarative",
+      "version": "0.9.2-1.14.5.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libngf-qt5-declarative-0.9.2-1.14.5.jolla.aarch64.rpm",
+      "sha256": "c2a5ed34a8e3340e3480138c1bc9cb6e40bae563f516264ddc728a65e05079a6"
+    },
+    {
+      "name": "libnghttp2",
+      "version": "1.58.0+git1-1.5.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libnghttp2-1.58.0+git1-1.5.4.jolla.aarch64.rpm",
+      "sha256": "eebfc08992816f9146bb9142298c461da6283e3a7eb140e6692ac6e3c182d246"
+    },
+    {
+      "name": "libogg",
+      "version": "1.3.5+git1-1.6.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libogg-1.3.5+git1-1.6.3.jolla.aarch64.rpm",
+      "sha256": "ad52afdb24b2127c2fd780c6b792035f8c19d9ca18c686346f23f723e1e8a134"
+    },
+    {
+      "name": "libpng",
+      "version": "1.6.58+git1-1.8.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libpng-1.6.58+git1-1.8.1.jolla.aarch64.rpm",
+      "sha256": "815be1c0b37c8f43d8d914b480530068b08ed0c2b89402c893c0970f6ed19e29"
+    },
+    {
+      "name": "libpng-devel",
+      "version": "1.6.58+git1-1.8.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libpng-devel-1.6.58+git1-1.8.1.jolla.aarch64.rpm",
+      "sha256": "6f8ad8f42fab9954aad76fb64d48aa8ed9ea3b7e0700712efce73e0d95b506d2"
+    },
+    {
+      "name": "libpsl",
+      "version": "0.21.5+git1-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libpsl-0.21.5+git1-1.7.3.jolla.aarch64.rpm",
+      "sha256": "a4fe7384c13910d5a9ecd2761d68a8649df3db9b8213359fd26b2f1deec49832"
+    },
+    {
+      "name": "libquillmetadata-qt5",
+      "version": "2.0.0-1.5.5.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libquillmetadata-qt5-2.0.0-1.5.5.jolla.aarch64.rpm",
+      "sha256": "35c98e91beb046962be814b349101175dbe264cdd90556a9ff48c0563da55ea1"
+    },
+    {
+      "name": "libsailfishapp",
+      "version": "1.2.17-1.8.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libsailfishapp-1.2.17-1.8.4.jolla.aarch64.rpm",
+      "sha256": "0edeb23ac80372481afb67539eaa5d1fc53f715fb230ae4d19442222836918cc"
+    },
+    {
+      "name": "libsailfishapp-devel",
+      "version": "1.2.17-1.8.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libsailfishapp-devel-1.2.17-1.8.4.jolla.aarch64.rpm",
+      "sha256": "7e3119fbca653607c2dfdbd3355e208b6f2882c7ea78d81ab850b2082b837d58"
+    },
+    {
+      "name": "libsbc",
+      "version": "2.2+git1-1.8.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libsbc-2.2+git1-1.8.2.jolla.aarch64.rpm",
+      "sha256": "a5ec58cd1790c4e5be39a56c20ca6d3b2d7c028bcefa6b09c8b5df8bd4c0a6f7"
+    },
+    {
+      "name": "libselinux",
+      "version": "3.7+git3-1.8.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libselinux-3.7+git3-1.8.2.jolla.aarch64.rpm",
+      "sha256": "ea8b4a4b175d725699510a9c8efcaf8865121e92a7cd699e86e54be7843657b2"
+    },
+    {
+      "name": "libsepol",
+      "version": "3.7+git1-1.6.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libsepol-3.7+git1-1.6.3.jolla.aarch64.rpm",
+      "sha256": "af306cef59f9a6df0e72a61bdbede7f35ae1943c040d9c31b97b085d992a87d3"
+    },
+    {
+      "name": "libsmartcols",
+      "version": "2.40.2+git2-1.14.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libsmartcols-2.40.2+git2-1.14.3.jolla.aarch64.rpm",
+      "sha256": "49bb1238a2f9c20f08ea9910c86b4d8e168e1cba358af4c427507e0168c41417"
+    },
+    {
+      "name": "libsndfile",
+      "version": "1.2.2+git2-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libsndfile-1.2.2+git2-1.8.3.jolla.aarch64.rpm",
+      "sha256": "ee653c0c2f50fd27fc210ec0285197384a6816bb6271930b6c7e9479e928a19e"
+    },
+    {
+      "name": "libstdc++",
+      "version": "13.4.0+git2-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libstdc++-13.4.0+git2-1.9.3.jolla.aarch64.rpm",
+      "sha256": "937dd5e65a8bd93017561b4577420e9801dd45c925a60268bf5a0c5d6cbe5b10"
+    },
+    {
+      "name": "libstdc++-devel",
+      "version": "13.4.0+git2-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libstdc++-devel-13.4.0+git2-1.9.3.jolla.aarch64.rpm",
+      "sha256": "a7d61c41cb0d648bc7126cf5ebe4b7c46976ccd753bdfb7608ab3216cbbe40f4"
+    },
+    {
+      "name": "libtasn1",
+      "version": "4.21.0+git1-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libtasn1-4.21.0+git1-1.8.3.jolla.aarch64.rpm",
+      "sha256": "c4c48f5e41af2dfe8cd1002c82005431fe656c6a1fbc83f46d47f91cc654a2ec"
+    },
+    {
+      "name": "libtheora",
+      "version": "1.2.0+git1-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libtheora-1.2.0+git1-1.7.3.jolla.aarch64.rpm",
+      "sha256": "9014a7b966773d957cf48424ffd17887bad897afba1be1a0bc5462040375b1a9"
+    },
+    {
+      "name": "libtiff",
+      "version": "4.7.1+git1-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libtiff-4.7.1+git1-1.9.3.jolla.aarch64.rpm",
+      "sha256": "84b4470c3cdd062ab6dbe5e31b6201f73f1ffc3248ab3ad8e68f1812b7652710"
+    },
+    {
+      "name": "libtool-ltdl",
+      "version": "2.4.7-1.5.5.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libtool-ltdl-2.4.7-1.5.5.jolla.aarch64.rpm",
+      "sha256": "e30bae82c7b6573f6dfbf908989f854c135b9def5b9306aa67335f266095d52a"
+    },
+    {
+      "name": "libutempter",
+      "version": "1.1.5+git3-1.6.15.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libutempter-1.1.5+git3-1.6.15.jolla.aarch64.rpm",
+      "sha256": "c6067039b16cc2fe315aa9167ac4a8eba08b299839c7c7138e7f5589810acb39"
+    },
+    {
+      "name": "libuuid",
+      "version": "2.40.2+git2-1.14.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libuuid-2.40.2+git2-1.14.3.jolla.aarch64.rpm",
+      "sha256": "3d0c03d89c1864954730a47439f65b320c0a56df2681ba52ec5af1c350078d53"
+    },
+    {
+      "name": "libvorbis",
+      "version": "1.3.7-1.4.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libvorbis-1.3.7-1.4.6.jolla.aarch64.rpm",
+      "sha256": "f172d4d155906e2f016038a11c4c28440e22a65346ae4e8a8b95b396a601982d"
+    },
+    {
+      "name": "libvpx",
+      "version": "1.16.0+git1-1.9.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libvpx-1.16.0+git1-1.9.2.jolla.aarch64.rpm",
+      "sha256": "38ca62d785791855e5348516cccdbcc5a259c54da190445358c44c8020cdc88c"
+    },
+    {
+      "name": "libwebp",
+      "version": "1.6.0+git1-1.12.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libwebp-1.6.0+git1-1.12.3.jolla.aarch64.rpm",
+      "sha256": "528418c29a409f2bd9a4e42aa17786aaebd553a4b9f0dc9929a1e041bb22a771"
+    },
+    {
+      "name": "libxcrypt",
+      "version": "4.5.2+git1-1.4.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libxcrypt-4.5.2+git1-1.4.2.jolla.aarch64.rpm",
+      "sha256": "47492d4f394eaaa544a56633b821c19e199850e55309ddb1e474a1705a291b15"
+    },
+    {
+      "name": "libxcrypt-devel",
+      "version": "4.5.2+git1-1.4.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libxcrypt-devel-4.5.2+git1-1.4.2.jolla.aarch64.rpm",
+      "sha256": "6badd8672e91c17a0d1a8dff13c692f07dc4ce9b24275e6ce720307ad3fe34a2"
+    },
+    {
+      "name": "libxml2",
+      "version": "2.13.9+git1-1.11.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libxml2-2.13.9+git1-1.11.3.jolla.aarch64.rpm",
+      "sha256": "144db4659d898fe040bf60719fb09c074fb5386a48a836c18a035166f683f445"
+    },
+    {
+      "name": "libzstd",
+      "version": "1.5.7+git1-1.3.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/libzstd-1.5.7+git1-1.3.3.jolla.aarch64.rpm",
+      "sha256": "3d6892dd662c7913571b73bbe7fa9051ea2e8e824ecc068024c65335443e9210"
+    },
+    {
+      "name": "linux-glibc-devel",
+      "version": "4.4.302-1.8.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/linux-glibc-devel-4.4.302-1.8.1.jolla.aarch64.rpm",
+      "sha256": "a55890bb1019dc8485060918dd88b8060c59f2c6328f1d8f9e8bf51235ad2276"
+    },
+    {
+      "name": "lvm2",
+      "version": "2.03.32+git1-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/lvm2-2.03.32+git1-1.8.3.jolla.aarch64.rpm",
+      "sha256": "693449b92473328d1f2bb8e72a1f1d5cd9fb18ff8e20f99a204e21fb8cc8b378"
+    },
+    {
+      "name": "lvm2-libs",
+      "version": "2.03.32+git1-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/lvm2-libs-2.03.32+git1-1.8.3.jolla.aarch64.rpm",
+      "sha256": "7c98997882e2a7cb8824262735686058fe7abaa47bfd3b20f303fba1131b26b1"
+    },
+    {
+      "name": "mapplauncherd",
+      "version": "4.3.0-1.14.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/mapplauncherd-4.3.0-1.14.1.jolla.aarch64.rpm",
+      "sha256": "f364935195d609933f6cfbac1eb3f1c11de2a40858136ac3f2eb1c5fab46e5dc"
+    },
+    {
+      "name": "mapplauncherd-qt5",
+      "version": "1.2.0-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/mapplauncherd-qt5-1.2.0-1.9.3.jolla.aarch64.rpm",
+      "sha256": "8dff3c0a3e5b5084ea34a85252024c20761ecb4cfcf70a7cb8a96e1328caf620"
+    },
+    {
+      "name": "mapplauncherd-qt5-devel",
+      "version": "1.2.0-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/mapplauncherd-qt5-devel-1.2.0-1.9.3.jolla.aarch64.rpm",
+      "sha256": "b327eaa2c8a32ed0356effdee9040a1d184d10cbda353bfd676690b38468f72b"
+    },
+    {
+      "name": "mesa-llvmpipe-libEGL",
+      "version": "24.1.3+git1-1.9.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/mesa-llvmpipe-libEGL-24.1.3+git1-1.9.7.jolla.aarch64.rpm",
+      "sha256": "024927a78f9cab053308088cffd02f150ab30ccf8d08d821263e913551e05ba7"
+    },
+    {
+      "name": "mesa-llvmpipe-libEGL-devel",
+      "version": "24.1.3+git1-1.9.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/mesa-llvmpipe-libEGL-devel-24.1.3+git1-1.9.7.jolla.aarch64.rpm",
+      "sha256": "147450e7fe65f5d16bf7f13529d0ce3c56e5d7815c0457adbfdb135e74189f24"
+    },
+    {
+      "name": "mesa-llvmpipe-libGLESv2",
+      "version": "24.1.3+git1-1.9.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/mesa-llvmpipe-libGLESv2-24.1.3+git1-1.9.7.jolla.aarch64.rpm",
+      "sha256": "ecabd8c5f62e36340a1edf72e46c477d9ca03f2637a4238c989b2dc1faf73afa"
+    },
+    {
+      "name": "mesa-llvmpipe-libGLESv2-devel",
+      "version": "24.1.3+git1-1.9.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/mesa-llvmpipe-libGLESv2-devel-24.1.3+git1-1.9.7.jolla.aarch64.rpm",
+      "sha256": "1b344f0559fadda3e449d0988f5f96dc1898d96d602aca89359d3eceaf5e432b"
+    },
+    {
+      "name": "mesa-llvmpipe-libgbm",
+      "version": "24.1.3+git1-1.9.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/mesa-llvmpipe-libgbm-24.1.3+git1-1.9.7.jolla.aarch64.rpm",
+      "sha256": "ccb904ffaa1a75583bd06c78d58c3a7fca998ed378a5e281526af101c90c04d3"
+    },
+    {
+      "name": "mesa-llvmpipe-libglapi",
+      "version": "24.1.3+git1-1.9.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/mesa-llvmpipe-libglapi-24.1.3+git1-1.9.7.jolla.aarch64.rpm",
+      "sha256": "d6bd07437a2b19fbd0fcfdce18a350e901eff4d0580899195f62ecd44e746048"
+    },
+    {
+      "name": "mlite-qt5",
+      "version": "0.5.5-1.15.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/mlite-qt5-0.5.5-1.15.3.jolla.aarch64.rpm",
+      "sha256": "27701d9a3227e7d7cbaba698ade953a922b3526b4c747b8d1b279dbbb1262f3d"
+    },
+    {
+      "name": "ncurses-base",
+      "version": "6.6+git1-1.9.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/ncurses-base-6.6+git1-1.9.4.jolla.aarch64.rpm",
+      "sha256": "a4b8ad5a0ca84e603c8da86018fba58c7652ae99af279fad4b48f9bccf26eee6"
+    },
+    {
+      "name": "ncurses-libs",
+      "version": "6.6+git1-1.9.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/ncurses-libs-6.6+git1-1.9.4.jolla.aarch64.rpm",
+      "sha256": "f4a68f3c953af5536d2a5ac563189e7b382a86e2adaf87c957bbe8250bab4036"
+    },
+    {
+      "name": "nemo-qml-plugin-configuration-qt5",
+      "version": "0.2.10-1.11.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/nemo-qml-plugin-configuration-qt5-0.2.10-1.11.3.jolla.aarch64.rpm",
+      "sha256": "19d9084784818768081cd3599eed62ef0f21f44aefa427d02e60cffb61c34452"
+    },
+    {
+      "name": "nemo-qml-plugin-dbus-qt5",
+      "version": "2.1.39-1.11.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/nemo-qml-plugin-dbus-qt5-2.1.39-1.11.4.jolla.aarch64.rpm",
+      "sha256": "731a9a3746a195612f68e75c57b6e64fb865daf8b057be9f561b14dac5f51887"
+    },
+    {
+      "name": "nemo-qml-plugin-thumbnailer-qt5",
+      "version": "1.0.12-1.10.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/nemo-qml-plugin-thumbnailer-qt5-1.0.12-1.10.1.jolla.aarch64.rpm",
+      "sha256": "87c2e293c7e8df6fb3815b5d2371e32d7bc7c2f7204ef8bdfb4a4736e5f08947"
+    },
+    {
+      "name": "ngfd",
+      "version": "1.4.13-1.13.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/ngfd-1.4.13-1.13.4.jolla.aarch64.rpm",
+      "sha256": "5ae95ca0b106593b18d874f2ba987416ef7c7230ad16d6d80514846a7308f820"
+    },
+    {
+      "name": "ngfd-settings-basic",
+      "version": "1.4.13-1.13.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/ngfd-settings-basic-1.4.13-1.13.4.jolla.aarch64.rpm",
+      "sha256": "0cf03b5306e2bc7082fb9ddc7b778f25b45cb5f6e83a534b112daee3aae871c5"
+    },
+    {
+      "name": "nspr",
+      "version": "4.38.2+git1-1.7.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/nspr-4.38.2+git1-1.7.3.jolla.aarch64.rpm",
+      "sha256": "27891dd262010207032126e4c5570e56611a49b441fe7c1bad2d2ef60dbb59dd"
+    },
+    {
+      "name": "nss",
+      "version": "3.121+git1-1.9.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/nss-3.121+git1-1.9.4.jolla.aarch64.rpm",
+      "sha256": "27ffab30a394bbc550c8caec2d591091a305a94a05855ec1d4b0f41cfafeee9f"
+    },
+    {
+      "name": "nss-softokn",
+      "version": "3.121+git1-1.9.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/nss-softokn-3.121+git1-1.9.4.jolla.aarch64.rpm",
+      "sha256": "7578b5ab5dba9754f9c05345e087e854c95f522c0b27d4f83b927f6284ac0d51"
+    },
+    {
+      "name": "nss-softokn-freebl",
+      "version": "3.121+git1-1.9.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/nss-softokn-freebl-3.121+git1-1.9.4.jolla.aarch64.rpm",
+      "sha256": "3b5362ce8f80ef9031976f7288947666f195ad86e26158509fdb291604f18cd0"
+    },
+    {
+      "name": "nss-sysinit",
+      "version": "3.121+git1-1.9.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/nss-sysinit-3.121+git1-1.9.4.jolla.aarch64.rpm",
+      "sha256": "f42b4f3ae05629b9747e110cf64b4f7f3efbfce86d28f2592dfc61d678bba2ce"
+    },
+    {
+      "name": "nss-util",
+      "version": "3.121+git1-1.9.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/nss-util-3.121+git1-1.9.4.jolla.aarch64.rpm",
+      "sha256": "12230ffa5b6350b934e1258e41d6e4ca2cdf85fc1def1b16ea8b00cdbc03e6b8"
+    },
+    {
+      "name": "oneshot",
+      "version": "0.6.12-1.6.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/oneshot-0.6.12-1.6.2.jolla.noarch.rpm",
+      "sha256": "b724fb984001ea99afe50ea1b4301d9784f5cacdbd7d2b50258c16871d2a093a"
+    },
+    {
+      "name": "openjpeg",
+      "version": "2.5.4+git2-1.9.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/openjpeg-2.5.4+git2-1.9.1.jolla.aarch64.rpm",
+      "sha256": "af40c45e28c14433342dcc248f70793310d359ea4e78c8b39c57367700131c92"
+    },
+    {
+      "name": "openssl-libs",
+      "version": "3.5.7+git1-1.15.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/openssl-libs-3.5.7+git1-1.15.1.jolla.aarch64.rpm",
+      "sha256": "33677fe9c694e2b0ff9323a08491ecfd9602c9fa5b9eeb9437a0ab16646e3145"
+    },
+    {
+      "name": "openssl1.1",
+      "version": "1.1.1w+git1-1.1.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/openssl1.1-1.1.1w+git1-1.1.3.jolla.aarch64.rpm",
+      "sha256": "d4b0e91cb773bc7f1989fd2ef5f717322a5966b41ab8c0544a6e4fd165f7bd91"
+    },
+    {
+      "name": "opus",
+      "version": "1.6.1+git1-1.7.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/opus-1.6.1+git1-1.7.2.jolla.aarch64.rpm",
+      "sha256": "034878ead5f8d2f5cf1e71bd69a515d65004353d8a5cfd562ca108e0445f1c25"
+    },
+    {
+      "name": "orc",
+      "version": "0.4.42+git1-1.12.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/orc-0.4.42+git1-1.12.2.jolla.aarch64.rpm",
+      "sha256": "f148630f4dea35d2f28c18ad139eaeb783944b4488db3cd322245e9102d44c34"
+    },
+    {
+      "name": "p11-kit",
+      "version": "0.26.2+git1-1.7.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/p11-kit-0.26.2+git1-1.7.2.jolla.aarch64.rpm",
+      "sha256": "538ab1fcda92aa24d211f934759955bb18c456694f0a153b77912763a1c1096c"
+    },
+    {
+      "name": "p11-kit-nss-ckbi",
+      "version": "0.26.2+git1-1.7.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/p11-kit-nss-ckbi-0.26.2+git1-1.7.2.jolla.aarch64.rpm",
+      "sha256": "5d188247d41de0fc0a6f06b10cb8e8f822b5db535e9655dc6e2d67b844b994e9"
+    },
+    {
+      "name": "p11-kit-trust",
+      "version": "0.26.2+git1-1.7.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/p11-kit-trust-0.26.2+git1-1.7.2.jolla.aarch64.rpm",
+      "sha256": "8143da4d9fc83fb45f7590a6e2c42dd3d82283e676b01861bea9ab94b5c1a67e"
+    },
+    {
+      "name": "pacrunner",
+      "version": "0.18+git2-1.7.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/pacrunner-0.18+git2-1.7.7.jolla.aarch64.rpm",
+      "sha256": "df6fb589346fa541ba46f52edf3d2c783770ff3abdbd9bf393b73db908ea9c48"
+    },
+    {
+      "name": "pam",
+      "version": "1.7.1+git1-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/pam-1.7.1+git1-1.9.3.jolla.aarch64.rpm",
+      "sha256": "210345efad87b7900943bf81a4d1eb0367e3a7fbfef98ee97f5d706a8f095bd8"
+    },
+    {
+      "name": "pango",
+      "version": "1.51.1+git1-1.7.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/pango-1.51.1+git1-1.7.6.jolla.aarch64.rpm",
+      "sha256": "cda1f9ee01c6c5f8e12ca6730eeec0bfa6735ed472150c69b7700bcc9d2ea0e1"
+    },
+    {
+      "name": "pcre2",
+      "version": "10.46+git1-1.2.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/pcre2-10.46+git1-1.2.3.jolla.aarch64.rpm",
+      "sha256": "dbd4a3b1a5ada378575e00dba8c626cb9dcce4a07e30d5e7e609f24f7d9a2a08"
+    },
+    {
+      "name": "perl",
+      "version": "4:5.40.3-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/perl-5.40.3-1.8.3.jolla.aarch64.rpm",
+      "sha256": "ed84754dda17cd26952a5f22b73aaddb8d0fa3d994e1e7de8b1198fc168049e6"
+    },
+    {
+      "name": "perl-Compress-Raw-Bzip2",
+      "version": "4:2.212-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/perl-Compress-Raw-Bzip2-2.212-1.8.3.jolla.aarch64.rpm",
+      "sha256": "064e4c951176eace27136634c828098e75f4a0c41d18e3859ec90f3b02d080d3"
+    },
+    {
+      "name": "perl-Compress-Raw-Zlib",
+      "version": "4:2.212-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/perl-Compress-Raw-Zlib-2.212-1.8.3.jolla.aarch64.rpm",
+      "sha256": "3693d3eb7854a440a948c8d35324a00df308af5f2188888db382f553e0829a7b"
+    },
+    {
+      "name": "perl-ExtUtils-Embed",
+      "version": "4:1.35-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-ExtUtils-Embed-1.35-1.8.3.jolla.noarch.rpm",
+      "sha256": "95c5ed62fe16ab5d30e9ae0ae42df4b23e4b06143f6bbcb19c9ae97cb3b8cf4a"
+    },
+    {
+      "name": "perl-ExtUtils-Install",
+      "version": "4:2.22-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-ExtUtils-Install-2.22-1.8.3.jolla.noarch.rpm",
+      "sha256": "b2badbb58ce2a21b09f46391623a77b98ca83a7f36e74769219f7c65527f9e02"
+    },
+    {
+      "name": "perl-ExtUtils-MakeMaker",
+      "version": "4:7.70-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-ExtUtils-MakeMaker-7.70-1.8.3.jolla.noarch.rpm",
+      "sha256": "e51bd4812b661146e6766817940f3d2e858507d76269365b9f2b06a5c6131734"
+    },
+    {
+      "name": "perl-ExtUtils-Manifest",
+      "version": "4:1.75-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-ExtUtils-Manifest-1.75-1.8.3.jolla.noarch.rpm",
+      "sha256": "b3e351fbf626679838530dd961fa112268d1ba54c00dc45a40dce52286bebc36"
+    },
+    {
+      "name": "perl-ExtUtils-ParseXS",
+      "version": "4:3.51-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-ExtUtils-ParseXS-3.51-1.8.3.jolla.noarch.rpm",
+      "sha256": "b6ec348ec1fc6ebb7f71f593e22a8b5b63a61bc5e5916b57606256ffa52b74c9"
+    },
+    {
+      "name": "perl-Filter",
+      "version": "4:1.64-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/perl-Filter-1.64-1.8.3.jolla.aarch64.rpm",
+      "sha256": "4dd78578ff4574fb5113e198ce2b4b8aa0d1e27ba203f3b925307321c3cd8263"
+    },
+    {
+      "name": "perl-IO-Compress",
+      "version": "4:2.212-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/perl-IO-Compress-2.212-1.8.3.jolla.aarch64.rpm",
+      "sha256": "dae54a83f1339336e2acbfadd58a33f2ace69412ac2c27d6a2212f9266cabe93"
+    },
+    {
+      "name": "perl-Module-CoreList",
+      "version": "4:5.20250803-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-Module-CoreList-5.20250803-1.8.3.jolla.noarch.rpm",
+      "sha256": "78594ab3f71a8bbe9fb605d5180090d92c85785956c41c39ffa38702c796e5bf"
+    },
+    {
+      "name": "perl-Pod-Escapes",
+      "version": "4:1.07-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-Pod-Escapes-1.07-1.8.3.jolla.noarch.rpm",
+      "sha256": "89cb53721bbcc4679e5d518826e7b9d4bb6935ff852d205c52a35058a60cd0d3"
+    },
+    {
+      "name": "perl-Pod-Simple",
+      "version": "4:3.45-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-Pod-Simple-3.45-1.8.3.jolla.noarch.rpm",
+      "sha256": "7171bc775b05a9ae6546b3313a3e2ca8a3835a9a2bc7408106266a344f61f823"
+    },
+    {
+      "name": "perl-Scalar-List-Utils",
+      "version": "4:1.63-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/perl-Scalar-List-Utils-1.63-1.8.3.jolla.aarch64.rpm",
+      "sha256": "fb93c72165ac8fb95dc55389ef7304fde6f3d9ae9d2bc575042ac43705bdfd73"
+    },
+    {
+      "name": "perl-Socket",
+      "version": "4:2.001-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/perl-Socket-2.001-1.8.3.jolla.aarch64.rpm",
+      "sha256": "58736b6e6add6e03a34db6e9b79274ee145b5a80d08da9d795445fa06e38a6b8"
+    },
+    {
+      "name": "perl-Test-Harness",
+      "version": "4:3.48-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-Test-Harness-3.48-1.8.3.jolla.noarch.rpm",
+      "sha256": "70ea6ed3208807325841677569ba9389b610e759448ce9c79933d481c0369100"
+    },
+    {
+      "name": "perl-Test-Simple",
+      "version": "4:1.302199-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-Test-Simple-1.302199-1.8.3.jolla.noarch.rpm",
+      "sha256": "c3f2c0369f963d6b0ea0737c717ea808c52ff4f38a538695f4b18d2425bd6158"
+    },
+    {
+      "name": "perl-devel",
+      "version": "4:5.40.3-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/perl-devel-5.40.3-1.8.3.jolla.aarch64.rpm",
+      "sha256": "63a9db2147a9b0cba8ffd6c5482f7df44f52d258e59ec5f2a6e315726f773750"
+    },
+    {
+      "name": "perl-libs",
+      "version": "4:5.40.3-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/perl-libs-5.40.3-1.8.3.jolla.aarch64.rpm",
+      "sha256": "70e8158436d36138be3bf96c5e74861332b591067a33e6f527d03cd399d03f43"
+    },
+    {
+      "name": "perl-macros",
+      "version": "4:5.40.3-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-macros-5.40.3-1.8.3.jolla.noarch.rpm",
+      "sha256": "d470758539b0f174835498671e9b69ff5a4040d9a945bb75150965e1114f5598"
+    },
+    {
+      "name": "perl-parent",
+      "version": "4:0.225-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-parent-0.225-1.8.3.jolla.noarch.rpm",
+      "sha256": "0a59f3bdbc20f8d9f6de61c833356647efc70a62e883a8eec5e1dff9810789a3"
+    },
+    {
+      "name": "perl-threads",
+      "version": "4:2.40-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/perl-threads-2.40-1.8.3.jolla.aarch64.rpm",
+      "sha256": "bdac8d5a4229fd89d0b99080095a7558b88ff9d4574cc8f44106b156dc6ed2da"
+    },
+    {
+      "name": "perl-threads-shared",
+      "version": "4:1.69-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/perl-threads-shared-1.69-1.8.3.jolla.aarch64.rpm",
+      "sha256": "9e28733a8d43be842df63e443ba028aa71d0f7961ce2bad4422869e6d9e6fa85"
+    },
+    {
+      "name": "perl-version",
+      "version": "4:0.99.30-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/perl-version-0.99.30-1.8.3.jolla.noarch.rpm",
+      "sha256": "321deb37b93667d33d49c3f425dc7448f3e3209d41f5a7c47e5376dd62087ad6"
+    },
+    {
+      "name": "pixman",
+      "version": "0.44.2+git1-1.8.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/pixman-0.44.2+git1-1.8.3.jolla.aarch64.rpm",
+      "sha256": "ca973ffa7b2eac6d8bdb16a8e8eac51d78975f474e774234c8be46789ae0733c"
+    },
+    {
+      "name": "pkgconfig",
+      "version": "0.29.2+git1-1.5.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/pkgconfig-0.29.2+git1-1.5.7.jolla.aarch64.rpm",
+      "sha256": "e41af097ee6820e0d78a19f907734f4ebfaf2e53b7ce574692729a47c07ab429"
+    },
+    {
+      "name": "poppler",
+      "version": "25.12.0+git1-1.10.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/poppler-25.12.0+git1-1.10.3.jolla.aarch64.rpm",
+      "sha256": "275b64fc4bf45939dd1073d0bb4c7c2a0fa587b743d537c902ed6c9e91e099e2"
+    },
+    {
+      "name": "poppler-qt5",
+      "version": "25.12.0+git1-1.10.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/poppler-qt5-25.12.0+git1-1.10.3.jolla.aarch64.rpm",
+      "sha256": "57b0909b60a5b9d848facb9bb35398280deeba154e8cf09254abdd18adb4be9d"
+    },
+    {
+      "name": "popt",
+      "version": "1.18+git1-1.4.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/popt-1.18+git1-1.4.6.jolla.aarch64.rpm",
+      "sha256": "723375d6943758c4ff6c8b1d2b66541c4d63cd4850d53c285663379b7f11f928"
+    },
+    {
+      "name": "profiled",
+      "version": "1.0.15-1.7.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/profiled-1.0.15-1.7.4.jolla.aarch64.rpm",
+      "sha256": "1ed8d3c17990ffde4b8d09edc82b2a1dad6bea206bc3602e56e34953c0ed7cb7"
+    },
+    {
+      "name": "profiled-settings-default",
+      "version": "1.0.15-1.7.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/profiled-settings-default-1.0.15-1.7.4.jolla.aarch64.rpm",
+      "sha256": "3b4f23515c14d09d69fdfd1b4147a3b73ffc0d74bfb5bdbeff434fa9ee208a67"
+    },
+    {
+      "name": "pulseaudio",
+      "version": "17.0+git2-1.13.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/pulseaudio-17.0+git2-1.13.1.jolla.aarch64.rpm",
+      "sha256": "6f5116a1d544d8ac6e6a927cde7e40ce19f708f00b492044a0085b29b6ee985a"
+    },
+    {
+      "name": "qml-rpm-macros",
+      "version": "0.1.1-1.5.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/qml-rpm-macros-0.1.1-1.5.1.jolla.noarch.rpm",
+      "sha256": "ac7a795568beaed153f48017ed3b111c579048e13a9148f05e65f71fb02bcc3d"
+    },
+    {
+      "name": "qt5-default",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-default-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "1c823aab04a89331ab82f51aaaeb1a3c2065e2ab7eb758880e3b256798a6993a"
+    },
+    {
+      "name": "qt5-plugin-imageformat-jpeg",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-plugin-imageformat-jpeg-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "c284c38b2826f7082a74035107eacdbad7fc07426cce1616bc468e364309dcc4"
+    },
+    {
+      "name": "qt5-qmake",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qmake-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "7e92d5a3ee128693d4da7226f56e51869a0bd405525ca0cc17821906bcde1cf1"
+    },
+    {
+      "name": "qt5-qtconcurrent",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtconcurrent-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "acd3fe9566e5515e58b9b52814469823aeef428ca81169499e74972aa8c2d5ce"
+    },
+    {
+      "name": "qt5-qtcore",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtcore-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "bead0a1375cb4d130a672bc33105b6859aa56fdbde08a04958d1b61426c30adf"
+    },
+    {
+      "name": "qt5-qtcore-devel",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtcore-devel-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "479167c2e1bedf928d6e4fb93c81925e9deb5b889830f1933200ec00b06c90b1"
+    },
+    {
+      "name": "qt5-qtdbus",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtdbus-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "5586378305d468296a3b6484b3fff41edb8a09e8722f7aa187ca60b33cbf5bec"
+    },
+    {
+      "name": "qt5-qtdeclarative",
+      "version": "5.6.3+git28-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtdeclarative-5.6.3+git28-1.9.3.jolla.aarch64.rpm",
+      "sha256": "d059edb70bc978cbc1d396602ffb441b3a62f8bc769264a55dc4ae781f4d9a4c"
+    },
+    {
+      "name": "qt5-qtdeclarative-devel",
+      "version": "5.6.3+git28-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtdeclarative-devel-5.6.3+git28-1.9.3.jolla.aarch64.rpm",
+      "sha256": "fb39948b0265444184348abffc994d8f3905947e3b9850dce6e1f56522c5c2ab"
+    },
+    {
+      "name": "qt5-qtdeclarative-import-qtquick2plugin",
+      "version": "5.6.3+git28-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtdeclarative-import-qtquick2plugin-5.6.3+git28-1.9.3.jolla.aarch64.rpm",
+      "sha256": "f6e02cc2cd49e9a0110c4f439dab231d0149b294f4d4df3d6c38698ba3f32739"
+    },
+    {
+      "name": "qt5-qtdeclarative-import-window2",
+      "version": "5.6.3+git28-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtdeclarative-import-window2-5.6.3+git28-1.9.3.jolla.aarch64.rpm",
+      "sha256": "90bcba0a746f0a7364d442a8dcb9c65cad92fab20944aec905f7536fc915c360"
+    },
+    {
+      "name": "qt5-qtdeclarative-qtquick",
+      "version": "5.6.3+git28-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtdeclarative-qtquick-5.6.3+git28-1.9.3.jolla.aarch64.rpm",
+      "sha256": "3eeabf501f97931bc641ce66e79c29e1d6fa10344c735cd41eb1af90705f2e23"
+    },
+    {
+      "name": "qt5-qtdeclarative-qtquick-devel",
+      "version": "5.6.3+git28-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtdeclarative-qtquick-devel-5.6.3+git28-1.9.3.jolla.aarch64.rpm",
+      "sha256": "60696a422244c26def7fd36731883bb0c0a12fa6b55b65eef5ef9257f8a98bba"
+    },
+    {
+      "name": "qt5-qtfeedback",
+      "version": "5.2.0+git10-1.6.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtfeedback-5.2.0+git10-1.6.2.jolla.aarch64.rpm",
+      "sha256": "39fe917c5cbf846a09f5165801653c00d4aa9bbb2b47e63544325454b68a2ba2"
+    },
+    {
+      "name": "qt5-qtgui",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtgui-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "c87e3beabee79e59d8d1c7c863c6f145ea305e521a7b832ec2b155d769d45f3e"
+    },
+    {
+      "name": "qt5-qtgui-devel",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtgui-devel-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "52291e688dded336ea5918357297450bf2d37d96ccd88476ea27f5f7dd9a26de"
+    },
+    {
+      "name": "qt5-qtnetwork",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtnetwork-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "81080864f5775d000654ec01ee0e3dad2ed1e412601eb6a58e71f515c7e03c5b"
+    },
+    {
+      "name": "qt5-qtnetwork-devel",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtnetwork-devel-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "ef4a2c1110ee2b8df466e22a7ef1c49b8bdf82a2b5b3862bc8a14e8fb4dc9754"
+    },
+    {
+      "name": "qt5-qtprintsupport",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtprintsupport-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "df21e5babea7544c01dae2747b7a85e7377ee13caeff47d1936f03a6aaa90ce3"
+    },
+    {
+      "name": "qt5-qtsql",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtsql-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "ecba3622062fdc44e61f8f07ae540b7a8cbe0c94547889161043264aff075b6e"
+    },
+    {
+      "name": "qt5-qtsql-devel",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtsql-devel-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "f04910328a2826d66c87c62ce3ff3ae575335072f76688c3341d39f047271598"
+    },
+    {
+      "name": "qt5-qttools",
+      "version": "5.6.3+git2-1.6.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qttools-5.6.3+git2-1.6.1.jolla.aarch64.rpm",
+      "sha256": "3fea406b28c9bbe11052e438275c75f854496fe3f4dd8794b03868a2a9a335a7"
+    },
+    {
+      "name": "qt5-qttools-linguist",
+      "version": "5.6.3+git2-1.6.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qttools-linguist-5.6.3+git2-1.6.1.jolla.aarch64.rpm",
+      "sha256": "434504214f5b22da0ebfdb656b7d50684dbd64b2120b5c3f99603b245f5f50a4"
+    },
+    {
+      "name": "qt5-qtwidgets",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtwidgets-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "abe5dc836ab26dba23c51789ac7d49eac433373911e2b30868aeda100aef3d64"
+    },
+    {
+      "name": "qt5-qtxml",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-qtxml-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "02f9385b221f4928fe13408d5f9bb91847d091adc1290ac610374d263319eb2e"
+    },
+    {
+      "name": "qt5-tools",
+      "version": "5.6.3+git60-1.19.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qt5-tools-5.6.3+git60-1.19.6.jolla.aarch64.rpm",
+      "sha256": "4d6c6861f77ea35e0fe9008ef198d7aad04ea678f6a2fb8143931b2cec72d33b"
+    },
+    {
+      "name": "qtchooser",
+      "version": "26-1.6.5.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/qtchooser-26-1.6.5.jolla.aarch64.rpm",
+      "sha256": "fd0dfd264ade5a8934894c4efb725af77efc8a15efa6d8ce1f0f48a0b86fd7cd"
+    },
+    {
+      "name": "rpm",
+      "version": "4.16.1.3+git20-1.13.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/rpm-4.16.1.3+git20-1.13.4.jolla.aarch64.rpm",
+      "sha256": "1d3a5a3558e62528373b939a51922058de4acf87ff1a99e4ad565eb9a028a213"
+    },
+    {
+      "name": "sailfish-access-control",
+      "version": "0.0.12-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/sailfish-access-control-0.0.12-1.9.3.jolla.aarch64.rpm",
+      "sha256": "5075f5e4e56831d38e8f874ddf43321f07d5d1a6eddb6529b1e9367fbc07603b"
+    },
+    {
+      "name": "sailfish-content-graphics-closed",
+      "version": "0.7.1-1.4.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/non-oss/noarch/sailfish-content-graphics-closed-0.7.1-1.4.2.jolla.noarch.rpm",
+      "sha256": "31fc9d1c22999ebfbfb04dc9688c0de70adb258d170bfd7577e066b3e3fc86b0"
+    },
+    {
+      "name": "sailfish-content-graphics-closed-z1.0",
+      "version": "0.7.1-1.4.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/non-oss/noarch/sailfish-content-graphics-closed-z1.0-0.7.1-1.4.2.jolla.noarch.rpm",
+      "sha256": "719df26ef3920db81bf727a5f1f0b921ac54c03abbd3cd9e12e979c80bc429d0"
+    },
+    {
+      "name": "sailfish-content-graphics-default",
+      "version": "1.4.6-1.10.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/non-oss/noarch/sailfish-content-graphics-default-1.4.6-1.10.1.jolla.noarch.rpm",
+      "sha256": "a4b34191ba4f4d1a076e4c31a5b97e763d1f42b11e49a5525378559c0d15a826"
+    },
+    {
+      "name": "sailfish-content-graphics-default-z1.0",
+      "version": "1.4.6-1.10.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/non-oss/noarch/sailfish-content-graphics-default-z1.0-1.4.6-1.10.1.jolla.noarch.rpm",
+      "sha256": "307aa2968d1275cc4ca9df5e728baf12e45de3e94276b41f5a061b33d47889ca"
+    },
+    {
+      "name": "sailfish-device-encryption-unlock-ui-resources-z1.0",
+      "version": "0.11.13-1.14.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/non-oss/aarch64/sailfish-device-encryption-unlock-ui-resources-z1.0-0.11.13-1.14.7.jolla.aarch64.rpm",
+      "sha256": "efa37257621381a264ecf0be5d074401360dc8976e30f7242fe4d31be37babe9"
+    },
+    {
+      "name": "sailfish-fonts",
+      "version": "0.4.0-1.3.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/sailfish-fonts-0.4.0-1.3.1.jolla.noarch.rpm",
+      "sha256": "7c5e5c3cc63ab9db76df3bc114389d579fa73ec60586ea7c9bd10c54d43c6981"
+    },
+    {
+      "name": "sailfish-minui-resources-z1.0",
+      "version": "0.1.9-1.9.6.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/non-oss/aarch64/sailfish-minui-resources-z1.0-0.1.9-1.9.6.jolla.aarch64.rpm",
+      "sha256": "5083a73a22d88a40c46fc01a4bdc41006f3ada2f4007fd422fe0f30f67dffcd5"
+    },
+    {
+      "name": "sailfish-setup",
+      "version": "0.3.4-1.6.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/sailfish-setup-0.3.4-1.6.2.jolla.noarch.rpm",
+      "sha256": "2b38881e3b361b15a99df3d910880c5f00a0669f567e1ed8a08500bb6b9a5c68"
+    },
+    {
+      "name": "sailfish-silica-background-qt5",
+      "version": "0.9.16-1.2.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/non-oss/aarch64/sailfish-silica-background-qt5-0.9.16-1.2.3.jolla.aarch64.rpm",
+      "sha256": "62af5473590b398a9642e10c078623baaa7585fc5fdfd1023c4d9735d1523aa7"
+    },
+    {
+      "name": "sailfish-upgrade-ui-resources-logo-z1.0",
+      "version": "0.1.19-1.4.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/non-oss/aarch64/sailfish-upgrade-ui-resources-logo-z1.0-0.1.19-1.4.7.jolla.aarch64.rpm",
+      "sha256": "b48712a75688b4469b822692e12a7f19e694bd2ae61395fbbc634d7e9354d4db"
+    },
+    {
+      "name": "sailfish-upgrade-ui-resources-z1.0",
+      "version": "0.1.19-1.4.7.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/non-oss/aarch64/sailfish-upgrade-ui-resources-z1.0-0.1.19-1.4.7.jolla.aarch64.rpm",
+      "sha256": "817d05bd73f08cbe7615b60f371191933174a5ff60821ba0eb3b1af721a4f2ba"
+    },
+    {
+      "name": "sailfishshare-components",
+      "version": "1.1.14-1.8.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/sailfishshare-components-1.1.14-1.8.1.jolla.aarch64.rpm",
+      "sha256": "4b97226a72bfb4108849ee62a2ec896641b375f3fa7c35108471dcda1e534f58"
+    },
+    {
+      "name": "sailfishsilica-qt5",
+      "version": "1.2.157-1.39.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/non-oss/aarch64/sailfishsilica-qt5-1.2.157-1.39.1.jolla.aarch64.rpm",
+      "sha256": "422b375a1fac463f488b20fa0c3b3c287d21130c0f3a69820e593faddf2855f3"
+    },
+    {
+      "name": "sailjail",
+      "version": "1.2.0-1.20.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/sailjail-1.2.0-1.20.1.jolla.aarch64.rpm",
+      "sha256": "eb600fa7155ae758bd340e003c56ffc5e384494eab570e54a765b71f123637d0"
+    },
+    {
+      "name": "sailjail-daemon",
+      "version": "1.2.0-1.20.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/sailjail-daemon-1.2.0-1.20.1.jolla.aarch64.rpm",
+      "sha256": "23d8e5038ce63f3c4639460d63a17c26c315301565fe34683d8565ee9fa2f5fc"
+    },
+    {
+      "name": "sailjail-permissions",
+      "version": "1.1.22-1.38.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/sailjail-permissions-1.1.22-1.38.1.jolla.aarch64.rpm",
+      "sha256": "5a53aaebb182afc6bd539f51103925b63bde535a3bbdd5980500568551fcef96"
+    },
+    {
+      "name": "setup",
+      "version": "2.13.6+git6-1.10.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/setup-2.13.6+git6-1.10.3.jolla.noarch.rpm",
+      "sha256": "2e9e6051d0c70239927bf501e196ab5906861dfd43af29bfd15d64d93ef3926e"
+    },
+    {
+      "name": "shadow-utils",
+      "version": "4.16+git2-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/shadow-utils-4.16+git2-1.9.3.jolla.aarch64.rpm",
+      "sha256": "82f64309fbdfee5e51dba06414d8b327c3e25c6d18d7fdde71aadb3dc4244d0d"
+    },
+    {
+      "name": "sound-theme-freedesktop",
+      "version": "0.8+git1-1.6.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/sound-theme-freedesktop-0.8+git1-1.6.2.jolla.noarch.rpm",
+      "sha256": "aa34775fbfa4fc856cb0828ca758ae22cda653893b459707512a67ab3c03398b"
+    },
+    {
+      "name": "speex",
+      "version": "1.2.1+git2-1.7.5.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/speex-1.2.1+git2-1.7.5.jolla.aarch64.rpm",
+      "sha256": "d15b089c41b843c5a4b6cc1ad90d08b3f078835931d26e296fc5863feb3ee8ac"
+    },
+    {
+      "name": "speexdsp",
+      "version": "1.2.1+git1-1.6.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/speexdsp-1.2.1+git1-1.6.4.jolla.aarch64.rpm",
+      "sha256": "428b32d03ef96f7752079eedd25ce70bd0bd60825e18a8b6cb62c589e3b84db5"
+    },
+    {
+      "name": "sqlite-libs",
+      "version": "3.50.4+git1-1.10.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/sqlite-libs-3.50.4+git1-1.10.3.jolla.aarch64.rpm",
+      "sha256": "aa27a7ef6993c3ce77cdf0d450088ff143ffe21206f63ed8b49db6b66192a96a"
+    },
+    {
+      "name": "systemd",
+      "version": "238+git26-1.16.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/systemd-238+git26-1.16.4.jolla.aarch64.rpm",
+      "sha256": "0ac36b32bfbde1a1b94ddcee422c3f432dba82291d3d175d6be40efb522cdb71"
+    },
+    {
+      "name": "systemd-config-sailfish",
+      "version": "0.11.21.3-1.20.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/non-oss/noarch/systemd-config-sailfish-0.11.21.3-1.20.1.jolla.noarch.rpm",
+      "sha256": "bad99eee647ea8cf01cd9af34e9bec4e483d32247f83b3713dc50faf3b2e66d3"
+    },
+    {
+      "name": "systemd-libs",
+      "version": "238+git26-1.16.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/systemd-libs-238+git26-1.16.4.jolla.aarch64.rpm",
+      "sha256": "93e0bc0adb5ad738cecd9b41d8362bd37aeb903b40c7feb250c6c4fe4965c1ea"
+    },
+    {
+      "name": "systemd-user-session-targets",
+      "version": "0.0.2-1.6.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/systemd-user-session-targets-0.0.2-1.6.3.jolla.noarch.rpm",
+      "sha256": "ced0c5d5c0f3d7d8f594bbc9c640d5cbf0d1de13ab9bdb9286020aef8c6bbd65"
+    },
+    {
+      "name": "thumbnaild",
+      "version": "0.1.2-1.8.4.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/thumbnaild-0.1.2-1.8.4.jolla.aarch64.rpm",
+      "sha256": "1a18dca0f597259835719f4cd8f083dbfba3b110479064ab86aa0e6050080b88"
+    },
+    {
+      "name": "timed-qt5",
+      "version": "3.6.24-1.14.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/timed-qt5-3.6.24-1.14.3.jolla.aarch64.rpm",
+      "sha256": "339bc21aef844a519c16efaecf2cef31cd7d2cccf77571d0fddf354ed1d130c2"
+    },
+    {
+      "name": "tzdata",
+      "version": "2025b+git1-1.7.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/tzdata-2025b+git1-1.7.2.jolla.noarch.rpm",
+      "sha256": "fc269ee3bc019247a24e98dd14850e6894fa75abf3b96062f2ed3da09bcaa3ef"
+    },
+    {
+      "name": "tzdata-timed",
+      "version": "2025b+git2-1.9.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/tzdata-timed-2025b+git2-1.9.2.jolla.noarch.rpm",
+      "sha256": "937fc7d51c53bac3364849734ef989bf3ccd79e6b13573240af2996b9865660b"
+    },
+    {
+      "name": "util-linux",
+      "version": "2.40.2+git2-1.14.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/util-linux-2.40.2+git2-1.14.3.jolla.aarch64.rpm",
+      "sha256": "07b10c91c3c715c35e61274462f8d0c1a2ca75253a7ea0543d53ffea75c23fec"
+    },
+    {
+      "name": "wayland",
+      "version": "1.24.0+git1-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/wayland-1.24.0+git1-1.9.3.jolla.aarch64.rpm",
+      "sha256": "8c8b3fcd9e9f09b52e990fc3757853acf471c3c55f7bf55c874fc925f899a665"
+    },
+    {
+      "name": "wayland-egl",
+      "version": "1.24.0+git1-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/wayland-egl-1.24.0+git1-1.9.3.jolla.aarch64.rpm",
+      "sha256": "57dd46198f62ef1e4ae396644738e7e51152464f1b47b3be27a20990c5c156a0"
+    },
+    {
+      "name": "xdg-dbus-proxy",
+      "version": "0.1.7+git1-1.8.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/xdg-dbus-proxy-0.1.7+git1-1.8.2.jolla.aarch64.rpm",
+      "sha256": "cb07426ffd92ff3e82a39c184229663599fa23369853e3e5ff05f65cb1bc0662"
+    },
+    {
+      "name": "xdg-utils",
+      "version": "1.2.1+git1-1.9.1.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/noarch/xdg-utils-1.2.1+git1-1.9.1.jolla.noarch.rpm",
+      "sha256": "10292ad2b9eaa88db11ce113df3a93e8b0465623790470bdb0ebb134159f5842"
+    },
+    {
+      "name": "xz-libs",
+      "version": "5.8.3+git1-1.7.2.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/xz-libs-5.8.3+git1-1.7.2.jolla.aarch64.rpm",
+      "sha256": "51e60b8b2524c8d9a79df8d9f56d174f59da00db675d77ecfc485ec5d32262a4"
+    },
+    {
+      "name": "zlib",
+      "version": "1.3.1+git1-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/zlib-1.3.1+git1-1.9.3.jolla.aarch64.rpm",
+      "sha256": "c55c466bd8c4689b06679f234f8949a5822e1f9783f953896a74b3af993da386"
+    },
+    {
+      "name": "zlib-devel",
+      "version": "1.3.1+git1-1.9.3.jolla",
+      "url": "https://releases.jolla.com/releases/5.2.0.22/jolla/aarch64/oss/aarch64/zlib-devel-1.3.1+git1-1.9.3.jolla.aarch64.rpm",
+      "sha256": "94263acb242b583bbe3c5963de5c16e7909cc3c35830224c96d7def1c113cfbd"
+    }
+  ]
+}

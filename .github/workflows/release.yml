@@ -1,0 +1,127 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - "v*"
+  # Keep the Nix store and cargo caches from being evicted (GitHub drops
+  # caches not accessed for 7 days).
+  schedule:
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  # Needed by cache-nix-action to purge superseded caches.
+  actions: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  rpm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      # Caches saved from a tag are only visible to that same tag, so only
+      # the default branch saves; tag builds restore the master cache.
+      SAVE_CACHE: ${{ github.ref == 'refs/heads/master' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check tag matches Cargo.toml version
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          version="$(sed -n 's/^version = "\(.*\)"/\1/p' Cargo.toml | head -n 1)"
+          if [ "${GITHUB_REF_NAME}" != "v${version}" ]; then
+            echo "::error::Tag ${GITHUB_REF_NAME} does not match Cargo.toml version ${version} (expected v${version})"
+            exit 1
+          fi
+
+      - uses: cachix/install-nix-action@v31
+
+      - uses: nix-community/cache-nix-action@v7
+        with:
+          primary-key: nix-${{ runner.os }}-${{ hashFiles('devenv.lock', 'devenv.nix', 'devenv.yaml', 'nix/**') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+          save: ${{ env.SAVE_CACHE }}
+          # Garbage collection is done explicitly in the "Prune Nix store"
+          # step below, after rooting what the build needs.
+          purge: ${{ env.SAVE_CACHE }}
+          purge-prefixes: nix-${{ runner.os }}-
+          purge-created: 0
+          purge-primary-key: never
+
+      - uses: cachix/cachix-action@v16
+        with:
+          name: devenv
+
+      - name: Install devenv
+        run: |
+          # Use the same devenv revision as the project's lock file.
+          rev="$(jq -r '.nodes.devenv.locked.rev' devenv.lock)"
+          nix profile install --accept-flake-config "github:cachix/devenv/${rev}"
+
+      # rust-cache runs cargo/rustc outside the dev shell (for its cache key
+      # and to prune target/), so expose the dev shell's toolchain on PATH.
+      - name: Expose Rust toolchain
+        run: |
+          # Without "--", devenv silently ignores "bash -c ...".
+          # shellcheck disable=SC2016 # expanded by the inner bash
+          devenv shell -- bash -c 'dirname "$(command -v cargo)" > "$RUNNER_TEMP/rust-bin"' >/dev/null
+          test -x "$(cat "$RUNNER_TEMP/rust-bin")/rustc"
+          cat "$RUNNER_TEMP/rust-bin" >> "$GITHUB_PATH"
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          # The sysroot and C/C++ toolchain come from Nix, so invalidate the
+          # cargo cache when the Nix environment changes.
+          key: ${{ hashFiles('devenv.lock', 'devenv.nix', 'devenv.yaml', 'nix/**') }}
+          # Same reasoning as the Nix cache: tag-scoped caches can't be
+          # restored by other tags, so only master saves.
+          save-if: ${{ env.SAVE_CACHE == 'true' }}
+
+      - name: Build RPM
+        run: devenv shell -- just rpm release
+
+      # Keep only the runtime closure of the dev shell (sysroot, Qt host tools,
+      # toolchains) and collect everything else. This drops build-only inputs,
+      # such as the downloaded sysroot RPMs and the compilers used to build the
+      # Qt host tools, which would otherwise bloat the cache.
+      # devenv's own .devenv/gc/shell root can point at a stale store path, so
+      # root the shell explicitly.
+      - name: Prune Nix store
+        if: env.SAVE_CACHE == 'true'
+        run: |
+          roots="$RUNNER_TEMP/gcroots"
+          mkdir -p "$roots"
+          shell="$(devenv build shell | jq -r '.shell')"
+          nix-store --add-root "$roots/devenv-shell" --realise "$shell" >/dev/null
+          # The user profile, which holds the devenv CLI.
+          nix-store --add-root "$roots/user-profile" --realise "$(readlink -f ~/.nix-profile)" >/dev/null
+          closure="$(nix-store --query --requisites "$roots"/*)"
+          if ! grep -q 'sailfish-sdk-sysroot' <<<"$closure" || ! grep -q 'qt56-host-tools' <<<"$closure"; then
+            echo "::error::Sailfish sysroot / Qt host tools are not rooted; the cache would be useless"
+            exit 1
+          fi
+          nix store gc
+          du -sh /nix/store
+
+      - uses: actions/upload-artifact@v4
+        if: "!startsWith(github.ref, 'refs/tags/')"
+        with:
+          name: rpm
+          path: RPMS/*.rpm
+
+      - name: Create GitHub release
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" RPMS/*.rpm \
+            --title "${GITHUB_REF_NAME}" \
+            --generate-notes \
+            --verify-tag

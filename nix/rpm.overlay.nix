@@ -1,4 +1,8 @@
 (final: prev: {
+  # The wrapped rpm below only has binaries, so build libsolv against the
+  # original rpm, which also matches what's in the binary cache.
+  libsolv = prev.libsolv.override { rpm = prev.rpm; };
+
   rpm =
     let
       rpmElfdeps = final.writeTextFile {
