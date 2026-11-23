@@ -108,11 +108,11 @@ msgstr "Liste löschen"
 
 #: qml/pages/ShoppingListPage.qml:61
 msgid "Clear completed"
-msgstr "Abgeschlossene Einträge löschen"
+msgstr "Abgehakte Einträge löschen"
 
 #: qml/pages/ShoppingListPage.qml:65
 msgid "Cleared completed items"
-msgstr "Abgeschlossene Einträge gelöscht"
+msgstr "Abgehakte Einträge gelöscht"
 
 #: qml/pages/ShoppingListPage.qml:75
 msgid "Rename"
@@ -144,8 +144,8 @@ msgstr "Neuer Eintrag"
 
 #: qml/pages/ShoppingListPage.qml:185
 msgid "Completed"
-msgstr "Abgeschlossen"
+msgstr "Abgehakt"
 
 #: qml/pages/ShoppingListPage.qml:226
 msgid "Completed: %1"
-msgstr "Abgeschlossen am: %1"
+msgstr "Abgehakt am: %1"
