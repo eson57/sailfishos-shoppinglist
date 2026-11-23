@@ -22,7 +22,7 @@ Dialog {
             id: field
             width: parent.width
             height: Math.max(implicitHeight, Screen.height / 3)
-            label: Tr.tr("Share link")
+            label: Tr.tr("Shopping list link")
             placeholderText: Tr.tr("Enter a link from another device")
             wrapMode: Text.WrapAnywhere
 

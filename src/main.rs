@@ -94,7 +94,7 @@ async fn forward_to_running_instance(url: Option<&str>) -> bool {
 
 fn main() {
     let filter = EnvFilter::builder().parse_lossy(format!(
-        "error,{}=trace,{}",
+        "error,{}=trace,shoppinglist_core=info,{}",
         env!("CARGO_CRATE_NAME"),
         std::env::var("RUST_LOG").unwrap_or_default()
     ));

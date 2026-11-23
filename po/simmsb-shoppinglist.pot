@@ -65,7 +65,7 @@ msgid "Import"
 msgstr ""
 
 #: qml/pages/ImportDialog.qml:25
-msgid "Share link"
+msgid "Shopping list link"
 msgstr ""
 
 #: qml/pages/ImportDialog.qml:26

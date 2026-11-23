@@ -112,6 +112,7 @@ impl LocalStateArgs {
     pub fn load(config_dir: Option<PathBuf>) -> Result<Self> {
         let app = match &config_dir {
             Some(dir) => {
+                tracing::info!("Using {dir:?} as local config directory");
                 confy::load_path::<AppState>(dir.join(CONFIG_FILE)).map_err(|e| match e {
                     confy::ConfyError::BadRonData(ron_err) => {
                         let file = std::fs::read_to_string(dir.join(CONFIG_FILE)).unwrap();

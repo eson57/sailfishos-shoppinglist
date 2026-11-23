@@ -58,6 +58,7 @@ impl DocsApi {
 
         let (blobs, docs) = match data_dir {
             Some(root) => {
+                tracing::info!("Using {root:?} as data storage directory");
                 let blobs: iroh_blobs::api::Store =
                     iroh_blobs::store::fs::FsStore::load(data_subdir(root, "blobs")?)
                         .await?
