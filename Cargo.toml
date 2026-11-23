@@ -65,7 +65,10 @@ qt-build-utils = { git = "https://github.com/simmsb/cxx-qt", branch = "qt-5.6" }
 opt-level = 1  # needed for some cpp parts that need optimisations?
 
 [profile.release]
-strip = "debuginfo"
+codegen-units = 1
+strip = true
 opt-level = 3
-lto = "thin"
-# panic = "abort"
+lto = "fat"
+
+# We don't get good backtraces anyway as we're crossing C++ FFI all the time.
+panic = "abort"
