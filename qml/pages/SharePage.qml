@@ -45,7 +45,7 @@ Page {
             Label {
                 width: parent.width
 
-                text: Tr.tr("Share this list with someone, they'll be able to view and edit it.")
+                text: Tr.tr("Share this list with someone. They'll be able to view and edit it.")
                 wrapMode: Text.Wrap
                 color: Theme.secondaryColor
                 font.pixelSize: Theme.fontSizeSmall

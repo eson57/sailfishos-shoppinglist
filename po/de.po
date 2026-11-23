@@ -1,0 +1,151 @@
+# German translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: qml/pages/AboutPage.qml:13
+msgid "A shopping list program with p2p sharing"
+msgstr "Eine Einkaufsliste mit p2p Synchronisation"
+
+#: qml/pages/AboutPage.qml:27 qml/pages/DebugStatusPage.qml:33
+msgid "Debug"
+msgstr "Debug"
+
+#: qml/pages/CoverPage.qml:16 qml/pages/HomePage.qml:24
+msgid "Shopping lists"
+msgstr "Einkaufslisten"
+
+#: qml/pages/DebugStatusPage.qml:59
+msgid "Log"
+msgstr "Log"
+
+#: qml/pages/HomePage.qml:12
+msgid "List deleted"
+msgstr "Liste gelöscht"
+
+#: qml/pages/HomePage.qml:29
+msgid "About"
+msgstr "Über"
+
+#: qml/pages/HomePage.qml:33 qml/pages/ImportDialog.qml:17
+msgid "Import list"
+msgstr "Liste importieren"
+
+#: qml/pages/HomePage.qml:37 qml/pages/HomePage.qml:117
+msgid "New list"
+msgstr "Neue Liste"
+
+#: qml/pages/HomePage.qml:44
+msgid "No shopping lists"
+msgstr "Keine Einkaufslisten vorhanden"
+
+#: qml/pages/HomePage.qml:45
+msgid "Pull down to create or import a list"
+msgstr "Ziehen, um Liste zu erstellen oder importieren"
+
+#: qml/pages/HomePage.qml:93
+msgid "<unnamed list>"
+msgstr "<Unbennante Liste>"
+
+#: qml/pages/ImportDialog.qml:18
+msgid "Import"
+msgstr "Importieren"
+
+#: qml/pages/ImportDialog.qml:25
+msgid "Share link"
+msgstr "Link teilen"
+
+#: qml/pages/ImportDialog.qml:26
+msgid "Enter a link from another device"
+msgstr "Link von anderem Gerät eingeben"
+
+#: qml/pages/SharePage.qml:21
+msgid "Share shoppinglist"
+msgstr "Einkaufsliste teilen"
+
+#: qml/pages/SharePage.qml:42 qml/pages/SharePage.qml:89
+#: qml/pages/ShoppingListPage.qml:71
+msgid "Share"
+msgstr "Teilen"
+
+#: qml/pages/SharePage.qml:48
+msgid "Share this list with someone. They'll be able to view and edit it."
+msgstr ""
+"Teile diese Liste mit jemandem. Die Person kann sie anschauen und ändern."
+
+#: qml/pages/SharePage.qml:100
+msgid "Copied"
+msgstr "Kopiert"
+
+#: qml/pages/SharePage.qml:100
+msgid "Copy link"
+msgstr "Link kopieren"
+
+#: qml/pages/ShoppingListPage.qml:26
+msgid "Edit item"
+msgstr "Eintrag ändern"
+
+#: qml/pages/ShoppingListPage.qml:36
+msgid "Rename list"
+msgstr "Liste umbenennen"
+
+#: qml/pages/ShoppingListPage.qml:57
+msgid "Delete list"
+msgstr "Liste löschen"
+
+#: qml/pages/ShoppingListPage.qml:61
+msgid "Clear completed"
+msgstr "Abgeschlossene Einträge löschen"
+
+#: qml/pages/ShoppingListPage.qml:65
+msgid "Cleared completed items"
+msgstr "Abgeschlossene Einträge gelöscht"
+
+#: qml/pages/ShoppingListPage.qml:75
+msgid "Rename"
+msgstr "Umbenennen"
+
+#: qml/pages/ShoppingListPage.qml:96
+msgid "No items yet"
+msgstr "Noch keine Einträge"
+
+#: qml/pages/ShoppingListPage.qml:129 qml/pages/ShoppingListPage.qml:206
+msgid "Edit"
+msgstr "Ändern"
+
+#: qml/pages/ShoppingListPage.qml:133 qml/pages/ShoppingListPage.qml:210
+msgid "Delete"
+msgstr "Löschen"
+
+#: qml/pages/ShoppingListPage.qml:140 qml/pages/ShoppingListPage.qml:217
+msgid "Deleted"
+msgstr "Gelöscht"
+
+#: qml/pages/ShoppingListPage.qml:146 qml/pages/ShoppingListPage.qml:223
+msgid "Added: %1"
+msgstr "Hinzugefügt am: %1"
+
+#: qml/pages/ShoppingListPage.qml:166 qml/pages/ShoppingListPage.qml:167
+msgid "New item"
+msgstr "Neuer Eintrag"
+
+#: qml/pages/ShoppingListPage.qml:185
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: qml/pages/ShoppingListPage.qml:226
+msgid "Completed: %1"
+msgstr "Abgeschlossen am: %1"

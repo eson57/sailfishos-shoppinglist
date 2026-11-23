@@ -19,6 +19,8 @@ add-language lang:
     [ -f "$pot" ] || { echo "$pot missing; run 'just build <debug|release>' first" >&2; exit 1; }
     [ ! -e "$po" ] || { echo "$po already exists" >&2; exit 1; }
     msginit --no-translator --locale="{{ lang }}" --input="$pot" --output-file="$po"
+    sed -i 's/^"Content-Type: text\/plain; charset=.*\\n"$/"Content-Type: text\/plain; charset=UTF-8\\n"/' "$po"
+    grep -q '^"Content-Type: text/plain; charset=UTF-8\\n"$' "$po" || { echo "failed to set UTF-8 charset in $po" >&2; exit 1; }
     echo "Created $po"
 
 [arg("profile", pattern="debug|release")]

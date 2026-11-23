@@ -13,7 +13,7 @@ Page {
     property var homePage
     allowedOrientations: defaultAllowedOrientations
 
-    readonly property string displayName: shoppingListModel.name.length > 0 ? shoppingListModel.name : Tr.tr("<unnamed shopping list>")
+    readonly property string displayName: shoppingListModel.name
 
     function removeThisShoppingList() {
         var id = shoppingListId

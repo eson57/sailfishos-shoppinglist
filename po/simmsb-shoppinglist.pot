@@ -82,7 +82,7 @@ msgid "Share"
 msgstr ""
 
 #: qml/pages/SharePage.qml:48
-msgid "Share this list with someone, they'll be able to view and edit it."
+msgid "Share this list with someone. They'll be able to view and edit it."
 msgstr ""
 
 #: qml/pages/SharePage.qml:100
@@ -91,10 +91,6 @@ msgstr ""
 
 #: qml/pages/SharePage.qml:100
 msgid "Copy link"
-msgstr ""
-
-#: qml/pages/ShoppingListPage.qml:16
-msgid "<unnamed shopping list>"
 msgstr ""
 
 #: qml/pages/ShoppingListPage.qml:26
