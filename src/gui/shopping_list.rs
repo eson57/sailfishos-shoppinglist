@@ -370,34 +370,51 @@ impl ShoppingListModel {
     }
 
     #[with_executor]
-    fn add_item(self: Pin<&mut Self>, name: &QString) {
-        tracing::debug!("Adding item: {name}");
+    fn add_item(self: Pin<&mut Self>, names: &QString) {
+        // NOTE: I'm treating each line in the input as a separate item. The
+        // keyboard enter key triggers an item, so the only way to get a newline
+        // into the input is to paste.
 
-        let index = self
-            .incomplete_items
-            .first()
-            .map(|first| {
-                Fracindex::builder()
-                    .jitter()
-                    .before(&first.index.index())
-                    .build()
-                    .expect("Building fractional index failed, should be impossible")
-            })
-            .unwrap_or_else(|| Fracindex::default());
+        let names = names.to_string();
+        let names = names
+            .trim()
+            .lines()
+            // Reverse then names, we add each one to the top of the list.
+            .rev();
 
-        // TODO: Decide when to rebalance the fractional indexes?
+        let mut index_to_place_above = self.incomplete_items.first().map(|item| item.index.index());
 
-        let item = ShoppingListItem {
-            id: ShoppingListItemId::new(Uuid::new_v4()),
-            index: ShoppingListItemIndex::new(index),
-            name: name.to_string(),
-            created_at: Utc::now(),
-            completed_at: None,
-        };
+        for name in names {
+            // I think this is helpful?
+            let name = name.trim().trim_prefix("- ").trim_prefix("+ ").trim();
+            tracing::debug!("Adding item: {name}");
 
-        tell(&self.shopping_list_actor(), "Adding item", move |reply| {
-            ShoppingListMsg::AddItem(item, reply)
-        });
+            let index = index_to_place_above
+                .map(|index| {
+                    Fracindex::builder()
+                        .jitter()
+                        .before(&index)
+                        .build()
+                        .expect("Building fractional index failed, should be impossible")
+                })
+                .unwrap_or_else(|| Fracindex::default());
+
+            index_to_place_above = Some(index.clone());
+
+            // TODO: Decide when to rebalance the fractional indexes?
+
+            let item = ShoppingListItem {
+                id: ShoppingListItemId::new(Uuid::new_v4()),
+                index: ShoppingListItemIndex::new(index),
+                name: name.to_string(),
+                created_at: Utc::now(),
+                completed_at: None,
+            };
+
+            tell(&self.shopping_list_actor(), "Adding item", move |reply| {
+                ShoppingListMsg::AddItem(item, reply)
+            });
+        }
     }
 
     #[with_executor]

@@ -8,7 +8,7 @@ application = "simmsb-shoppinglist"
 
 [package]
 name = "sailfishos-shoppinglist"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 license = "GPL3"
 publish = false
